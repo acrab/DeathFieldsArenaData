@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="d75a-367d-6362-a9d2" name="Raumjager" gameSystemId="2fa2-88e4-c8fe-f337" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Auto Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="a42b-5731-1b36-f46d">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">5</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Stress, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Energy Pistol" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="84b4-b12d-5ef0-28d4">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Mobile</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5f2c-32c3-7ef9-1007">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Flamer" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="bda7-2a83-fd15-9ded">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Template</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">d5</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Template, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Laserkarabiner" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="176d-eb7b-c3e1-77a3">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Damage</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Laserkarabiner (Auto)" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="781f-0fce-5721-5426">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">12&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Stress</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Plasgun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5fee-460e-d8da-2a16">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Slow, Charged (1)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Einsatzkommandant" hidden="false" id="44ed-6528-f129-ec73" sortIndex="1" defaultAmount="1">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="104"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Captain" hidden="false" id="ade9-9f31-41cd-edb0" targetId="580d-6afb-dc8f-5dac" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Energy Pistol" id="1c13-b10c-d5f1-0262" hidden="false" type="profile" targetId="84b4-b12d-5ef0-28d4"/>
+        <infoLink name="Fists" id="9ec3-da6a-f3c2-5755" hidden="false" type="profile" targetId="5f2c-32c3-7ef9-1007"/>
+        <infoLink name="Command" id="2c45-6c40-bb51-61b4" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Kinetic Shield" id="d90c-6b10-c4de-914e" hidden="false" type="profile" targetId="b748-35e4-8a78-62ec"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Einsatzkommandant" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="13d5-da87-a103-57f5">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Vorrücken!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="d77f-72cb-8f77-d514">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that Activate within 6&quot; of this Model may add 2&quot; to their Movement.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Reaktionskraft" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="b318-6cca-8fbe-dd03">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">All Models in this Team are considered to be 3&quot; further away when selected as the Target of a Ranged Attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Flammenjäger" hidden="false" id="4cdd-be19-f0af-fea0" collective="true" sortIndex="2" defaultAmount="">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="d9c7-2a32-fcba-df49" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Flammenjäger" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="97ae-6b85-a38c-7c28">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Überlastung!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="89e3-3e7d-b0b9-583f">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may ignore the Flamer Slow Keyword. If this Model performs two Ranged Attack Actions it gains +1 Stress.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Flamer" id="d82d-6aca-5e06-215c" hidden="false" type="profile" targetId="bda7-2a83-fd15-9ded"/>
+        <infoLink name="Fists" id="ffaf-4b6e-8e92-91d9" hidden="false" type="profile" targetId="5f2c-32c3-7ef9-1007"/>
+        <infoLink name="Kinetic Shield" id="8388-9c74-7aa5-844a" hidden="false" type="profile" targetId="b748-35e4-8a78-62ec"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="102"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Totenjäger" hidden="false" id="a9f7-e452-6b4a-015e" collective="true" sortIndex="3">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="1da3-5ffe-9505-92ef" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Kinetic Shield" id="acf5-4dfe-c884-b394" hidden="false" type="profile" targetId="b748-35e4-8a78-62ec"/>
+        <infoLink name="Fists" id="8620-7098-3e93-c3d1" hidden="false" type="profile" targetId="5f2c-32c3-7ef9-1007"/>
+        <infoLink name="Auto Rifle" id="c647-ebc0-7a79-51c5" hidden="false" type="profile" targetId="a42b-5731-1b36-f46d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Gravatic Stabilisers" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="aa10-43e6-8d20-0d68">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This models Ranged Attacks gain the Mobile Keyword.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Totenjäger" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="54fe-f51f-036e-7c78">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="97"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Plasmajäger" hidden="false" id="3cce-dc5d-96b6-1fc5" sortIndex="4" collective="true">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="4cac-3bff-3734-7cf7" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="99"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Plasgun" id="65d2-680c-4961-38d7" hidden="false" type="profile" targetId="5fee-460e-d8da-2a16"/>
+        <infoLink name="Fists" id="910b-d79a-b429-caa2" hidden="false" type="profile" targetId="5f2c-32c3-7ef9-1007"/>
+        <infoLink name="Kinetic Shield" id="be0e-dd49-0992-b25d" hidden="false" type="profile" targetId="b748-35e4-8a78-62ec"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Thermal Optics" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="4500-344c-ff1c-5cc1">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Ignores Intervening Terrain.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Plasmajäger" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="6d3a-5c43-5eca-bf82">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Erfahrener Jäger" hidden="false" id="3b26-ae78-c4eb-9e4e" sortIndex="5" collective="true">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="98"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Kinetic Shield" id="35e2-9d22-3fbf-0f26" hidden="false" type="profile" targetId="b748-35e4-8a78-62ec"/>
+        <infoLink name="Laserkarabiner" id="6b14-4a12-3e41-51ef" hidden="false" type="profile" targetId="176d-eb7b-c3e1-77a3"/>
+        <infoLink name="Laserkarabiner (Auto)" id="266f-8a7d-8bd8-9175" hidden="false" type="profile" targetId="781f-0fce-5721-5426"/>
+        <infoLink name="Fists" id="30b6-6355-7135-6ea4" hidden="false" type="profile" targetId="5f2c-32c3-7ef9-1007"/>
+        <infoLink name="Spurfinder" id="d7b3-b918-a898-8f23" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Erfahrener Jäger" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="712c-956c-2360-af80">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tactical Advisor" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="5b88-cccb-b265-c702">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models within 4&quot; may re-roll one Ranged Attack die per Action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="d3fb-e0eb-7fcf-8f32" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Eiserne Jäger" hidden="false" id="a13f-66bb-89b8-fa89" collective="true" sortIndex="6">
+      <infoLinks>
+        <infoLink name="Laserkarabiner" id="a523-d2db-04e1-eef3" hidden="false" type="profile" targetId="176d-eb7b-c3e1-77a3"/>
+        <infoLink name="Laserkarabiner (Auto)" id="dfda-3dd3-d991-da1d" hidden="false" type="profile" targetId="781f-0fce-5721-5426"/>
+        <infoLink name="Fists" id="f774-e219-61d4-73f8" hidden="false" type="profile" targetId="5f2c-32c3-7ef9-1007"/>
+        <infoLink name="Kinetic Shield" id="7064-0332-71ac-dfb4" hidden="false" type="profile" targetId="b748-35e4-8a78-62ec"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Ausrücken" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="5cb5-404c-7dae-32ad">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When this model performs the Disengage (2) Action it may perform 1 additional Action this Activation.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eiserne Will" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3d0a-9e02-83d2-dc54">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">At the beginning of this Model&apos;s activation you may remove 1 Stress from this Model.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Eiserne Jäger" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="a3cb-3b09-4a30-e642">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="97"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="84e3-60f7-b871-30f9" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Kampfsanitäter" hidden="false" id="38ef-4ee9-3bdb-7ea6" sortIndex="7">
+      <infoLinks>
+        <infoLink name="Fists" id="faf6-d3d4-337e-6322" hidden="false" type="profile" targetId="5f2c-32c3-7ef9-1007"/>
+        <infoLink name="Kinetic Shield" id="c7ef-1621-33dd-f513" hidden="false" type="profile" targetId="b748-35e4-8a78-62ec"/>
+        <infoLink name="Laserkarabiner" id="dd02-8c65-25e6-1d2c" hidden="false" type="profile" targetId="176d-eb7b-c3e1-77a3"/>
+        <infoLink name="Laserkarabiner (Auto)" id="df1c-37c4-d870-59f9" hidden="false" type="profile" targetId="781f-0fce-5721-5426"/>
+        <infoLink name="Medic!" id="00d1-39b5-c9dd-5114" hidden="false" type="profile" targetId="1282-b99a-cf27-dae5"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Kampfsanitäter" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="ec03-2bae-63d3-9147">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Inspiring Presence" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="26ef-4a3f-6707-8dc6">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that activate within 6&quot; of this Model may remove 1 Stress at the start of their Activation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="100"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="f983-61a8-573a-ae2d" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="a9db-6618-5f7b-625f" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Kampfsanitäter" hidden="false" id="5779-c29c-1704-326f" targetId="38ef-4ee9-3bdb-7ea6" type="selectionEntry"/>
+    <entryLink import="true" name="Eiserne Jäger" hidden="false" id="1e0a-d48f-5708-411f" targetId="a13f-66bb-89b8-fa89" type="selectionEntry"/>
+    <entryLink import="true" name="Erfahrener Jäger" hidden="false" id="ad22-f7c6-06b2-c905" targetId="3b26-ae78-c4eb-9e4e" type="selectionEntry"/>
+    <entryLink import="true" name="Plasmajäger" hidden="false" id="88a8-0109-823e-f673" targetId="3cce-dc5d-96b6-1fc5" type="selectionEntry"/>
+    <entryLink import="true" name="Totenjäger" hidden="false" id="048a-2fc4-9312-1667" targetId="a9f7-e452-6b4a-015e" type="selectionEntry"/>
+    <entryLink import="true" name="Flammenjäger" hidden="false" id="0aae-6bb6-add2-aaae" targetId="4cdd-be19-f0af-fea0" type="selectionEntry"/>
+    <entryLink import="true" name="Einsatzkommandant" hidden="false" id="f199-5c6f-d6e2-c4ee" targetId="44ed-6528-f129-ec73" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

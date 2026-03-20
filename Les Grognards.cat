@@ -100,11 +100,6 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Knocked Back, Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="Kinetic Shield" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="b748-35e4-8a78-62ec">
-      <characteristics>
-        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">8+ Shield Save against Ranged Attacks only.</characteristic>
-      </characteristics>
-    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="model" import="true" name="Commandant de Ligne" hidden="false" id="766a-ea93-b09d-5107" defaultAmount="1" sortIndex="1">

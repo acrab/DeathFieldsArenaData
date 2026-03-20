@@ -124,6 +124,11 @@
         <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Action: The bearer or a model in base contact may heal d5 wounds.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Kinetic Shield" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="b748-35e4-8a78-62ec">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">8+ Shield Save against Ranged Attacks only.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <forceEntries>
     <forceEntry name="Army" id="574f-732a-cc8d-cce3" hidden="false">
