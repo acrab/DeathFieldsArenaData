@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="3529-d3db-280b-f35f" name="Les Grognards" gameSystemId="2fa2-88e4-c8fe-f337" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Bayonet" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="63d9-8e46-3596-31c6">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Bayonet</characteristic>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Chain Sabre" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4831-92a8-70ff-df89">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Chain Sabre</characteristic>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Energy Pistol" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4fdf-1deb-5017-78cf">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Energy Pistol</characteristic>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Flamer" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="49f0-f4ff-d12d-23d0">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Flamer</characteristic>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Template</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">d5</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Template, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5cf1-2ae1-5450-3ee0">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Fists</characteristic>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Frag Grenade" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5b6d-09fb-368e-cdc3">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Frag Grenade</characteristic>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Commandant de Ligne" hidden="false" id="766a-ea93-b09d-5107">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="119"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Chain Sabre" id="5883-928f-adbe-70fb" hidden="false" type="profile" targetId="4831-92a8-70ff-df89"/>
+        <infoLink name="Energy Pistol" id="3e39-6213-79f1-dff4" hidden="false" type="profile" targetId="4fdf-1deb-5017-78cf"/>
+        <infoLink name="Command" id="3a5b-ae6b-67d6-d211" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Captain" hidden="false" id="2387-5ca7-2bca-319c" targetId="580d-6afb-dc8f-5dac" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Commandant de Ligne" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="2b7f-6112-bef6-cae4">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="19b9-b8ed-aed3-6870">
+      <infoLinks>
+        <infoLink name="Slow" id="096c-0fd1-833f-cbbd" hidden="false" type="rule" targetId="57e3-ad54-d3e0-2ce4"/>
+        <infoLink name="Template" id="3b90-94af-ab5f-63a9" hidden="false" type="rule" targetId="b213-bd02-f3b5-7602"/>
+        <infoLink name="Flamer" id="c1bb-2ec1-8a0f-6070" hidden="false" type="profile" targetId="49f0-f4ff-d12d-23d0"/>
+      </infoLinks>
+      <comment>weapon</comment>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Garde de Flame" hidden="false" id="397e-0f3c-6ef6-e990">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="104"/>
+      </costs>
+      <entryLinks>
+        <entryLink import="true" name="Flamer" hidden="false" id="37ad-d974-810f-cdb0" type="selectionEntry" targetId="19b9-b8ed-aed3-6870"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="de46-715d-a4db-3add" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Fists" id="e7d7-01b2-0efc-65fb" hidden="false" type="profile" targetId="5cf1-2ae1-5450-3ee0"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1686-a78a-d3e2-7071" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Garde d&apos;Assaut" hidden="false" id="3f9c-cb9f-2431-c804">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="254f-33ab-e0e3-3504" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="106"/>
+      </costs>
+      <profiles>
+        <profile name="Garde d&apos;Assaut" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="32c6-a4e0-5e5e-f603">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Chain Sabre" id="692d-230d-2a91-eb5c" hidden="false" type="profile" targetId="4831-92a8-70ff-df89"/>
+        <infoLink name="Energy Pistol" id="9143-0d0f-ad1e-c709" hidden="false" type="profile" targetId="4fdf-1deb-5017-78cf"/>
+        <infoLink name="Frag Grenade" id="7c65-4869-c55d-f442" hidden="false" type="profile" targetId="5b6d-09fb-368e-cdc3"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
