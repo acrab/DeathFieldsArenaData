@@ -139,4 +139,9 @@
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink targetId="766a-ea93-b09d-5107" id="3e7c-ce01-ea58-15fb" type="selectionEntry" name="Commandant de Ligne" hidden="false"/>
+    <entryLink import="true" name="Garde d&apos;Assaut" hidden="false" id="db6e-57b0-5117-5505" targetId="3f9c-cb9f-2431-c804" type="selectionEntry"/>
+    <entryLink import="true" name="Garde de Flame" hidden="false" id="9fe7-c47e-063f-afce" targetId="397e-0f3c-6ef6-e990" type="selectionEntry"/>
+  </entryLinks>
 </catalogue>
