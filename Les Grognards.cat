@@ -53,23 +53,73 @@
     </profile>
     <profile name="Frag Grenade" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5b6d-09fb-368e-cdc3">
       <characteristics>
-        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Frag Grenade</characteristic>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
         <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
         <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
-        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Blast(3), Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fusion Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="02de-b5ac-b34e-399f">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8"/>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">12&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">3</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit AP, Ignores Cover, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grenade Launcher" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="c6d6-be3d-7f71-6a0c">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8"/>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Blast(3), Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Grognard Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="8684-5757-b38d-4f2a">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8"/>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Damage</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kinetic Cannon" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4f76-bed0-bd72-2413">
+      <characteristics>
+        <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8"/>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Knocked Back, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Overload" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="15bf-d163-61d3-c2d3">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May re-roll any Ranged Attack die. If you choose to re-roll any dice, at the end of the Action this model receives 1 Stress.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kinetic Shield" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="b748-35e4-8a78-62ec">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">8+ Shield Save against Ranged Attacks only.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
-    <selectionEntry type="model" import="true" name="Commandant de Ligne" hidden="false" id="766a-ea93-b09d-5107">
+    <selectionEntry type="model" import="true" name="Commandant de Ligne" hidden="false" id="766a-ea93-b09d-5107" defaultAmount="1" sortIndex="1">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="119"/>
       </costs>
       <infoLinks>
         <infoLink name="Chain Sabre" id="5883-928f-adbe-70fb" hidden="false" type="profile" targetId="4831-92a8-70ff-df89"/>
         <infoLink name="Energy Pistol" id="3e39-6213-79f1-dff4" hidden="false" type="profile" targetId="4fdf-1deb-5017-78cf"/>
+        <infoLink targetId="b748-35e4-8a78-62ec" id="e0ae-6441-a0c5-b5db" type="profile" name="Kinetic Shield" hidden="false"/>
         <infoLink name="Command" id="3a5b-ae6b-67d6-d211" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
       </infoLinks>
       <categoryLinks>
@@ -86,34 +136,46 @@
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
+        <profile name="Alert" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="17f4-6c4e-f209-5a5b">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May make Reactions whilst it has the Activated token.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Les Troupes de Ligne" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="cf4f-2a9b-2d03-dd80">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Whenever a model in this team makes a successful Ranged Attack action, other friendly models within 4&quot; and LoS may remove 1 stress.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="19b9-b8ed-aed3-6870">
-      <infoLinks>
-        <infoLink name="Slow" id="096c-0fd1-833f-cbbd" hidden="false" type="rule" targetId="57e3-ad54-d3e0-2ce4"/>
-        <infoLink name="Template" id="3b90-94af-ab5f-63a9" hidden="false" type="rule" targetId="b213-bd02-f3b5-7602"/>
-        <infoLink name="Flamer" id="c1bb-2ec1-8a0f-6070" hidden="false" type="profile" targetId="49f0-f4ff-d12d-23d0"/>
-      </infoLinks>
-      <comment>weapon</comment>
-    </selectionEntry>
-    <selectionEntry type="model" import="true" name="Garde de Flame" hidden="false" id="397e-0f3c-6ef6-e990">
+    <selectionEntry type="model" import="true" name="Garde de Flame" hidden="false" id="397e-0f3c-6ef6-e990" collective="true" sortIndex="5">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="104"/>
       </costs>
-      <entryLinks>
-        <entryLink import="true" name="Flamer" hidden="false" id="37ad-d974-810f-cdb0" type="selectionEntry" targetId="19b9-b8ed-aed3-6870"/>
-      </entryLinks>
       <categoryLinks>
         <categoryLink name="Specialist" hidden="false" id="de46-715d-a4db-3add" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Fists" id="e7d7-01b2-0efc-65fb" hidden="false" type="profile" targetId="5cf1-2ae1-5450-3ee0"/>
+        <infoLink name="Flamer" id="705f-ea5e-d730-0f0b" hidden="false" type="profile" targetId="49f0-f4ff-d12d-23d0"/>
       </infoLinks>
       <constraints>
-        <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1686-a78a-d3e2-7071" includeChildSelections="false"/>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="7ef8-ac48-b298-ebf3" includeChildSelections="true"/>
       </constraints>
+      <profiles>
+        <profile name="Garde de Flame" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="a55c-41f5-1c99-fc2e">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Garde d&apos;Assaut" hidden="false" id="3f9c-cb9f-2431-c804">
+    <selectionEntry type="model" import="true" name="Garde d&apos;Assaut" hidden="false" id="3f9c-cb9f-2431-c804" collective="true" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Core" hidden="false" id="254f-33ab-e0e3-3504" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
       </categoryLinks>
@@ -138,10 +200,301 @@
         <infoLink name="Frag Grenade" id="7c65-4869-c55d-f442" hidden="false" type="profile" targetId="5b6d-09fb-368e-cdc3"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="model" import="true" name="Garde de Kinetic" hidden="false" id="7506-33ab-5464-cf92" collective="true" sortIndex="2">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="8d00-060b-c0b1-9e52" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink targetId="15bf-d163-61d3-c2d3" id="f739-f41e-1a16-9b02" type="profile" name="Overload" hidden="false"/>
+        <infoLink name="Kinetic Cannon" id="36ec-8f41-e438-edd0" hidden="false" type="profile" targetId="4f76-bed0-bd72-2413"/>
+        <infoLink name="Fists" id="ff64-3d66-2d50-a5d4" hidden="false" type="profile" targetId="5cf1-2ae1-5450-3ee0"/>
+      </infoLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="98"/>
+      </costs>
+      <profiles>
+        <profile name="Garde de Kinetic" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="4c94-9491-41ac-b9c6">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0c5e-91de-d116-7c61" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Garde de Grenade" hidden="false" id="7fc4-520e-f8fd-baf9" collective="true" sortIndex="3">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="133"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="4adc-ec5a-2198-f77d" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Grenade Launcher" id="5c38-cff8-f6d6-9a43" hidden="false" type="profile" targetId="c6d6-be3d-7f71-6a0c"/>
+        <infoLink name="Fists" id="ee42-87d4-c616-e3ff" hidden="false" type="profile" targetId="5cf1-2ae1-5450-3ee0"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Feu de Pluie!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="7c74-3792-5a1a-746c">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may ignore the Slow Keyword. If this Model performs two Ranged Attack Actions it gains +1 Stress.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Garde de Grenade" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="c1d7-2d56-b554-bfc2">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="6df8-90d4-a1d8-247a" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Garde de Fusioner" hidden="false" id="7e76-ee38-ef5a-e682" sortIndex="4" collective="true">
+      <infoLinks>
+        <infoLink name="Fusion Gun" id="a6e3-f844-9377-f423" hidden="false" type="profile" targetId="02de-b5ac-b34e-399f"/>
+        <infoLink name="Fists" id="e6a4-9e00-530b-d84c" hidden="false" type="profile" targetId="5cf1-2ae1-5450-3ee0"/>
+        <infoLink name="Overload" id="4ff5-9ba2-12d9-0f8f" hidden="false" type="profile" targetId="15bf-d163-61d3-c2d3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Garde de Fusioner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="d2ea-e84d-be03-a164">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="95"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="46fb-c0bb-3be0-8ca4" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="fc49-1f22-7c2a-549c" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Officier de Coordination" hidden="false" id="8d6f-2906-f75f-90c7" sortIndex="7" collective="true">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="97"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="5042-0058-5538-0272" includeChildSelections="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="38d1-d7b3-c6aa-e0f6" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Officier de Coordination" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="8732-7c60-7afb-ea21">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Comms" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="ca0a-bf8f-607c-f17d">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">A Model with the Order Keyword may issue an order to models within 6&quot; of this  model following all of the rules for issuing orders.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Volley Fire" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="9530-5f81-74b6-2508">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">All Friendly Models within 4&quot; and LoS of this Model may re-roll one Ranged Attack die per Ranged Attack Action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Grognard Rifle" id="0de8-77bd-cfa9-2bb0" hidden="false" type="profile" targetId="8684-5757-b38d-4f2a"/>
+        <infoLink name="Bayonet" id="c3cd-691f-cf72-b62c" hidden="false" type="profile" targetId="63d9-8e46-3596-31c6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Infirmier de Combat" hidden="false" id="5cd9-b22b-40f3-fdcf" sortIndex="8" collective="true">
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4992-987e-b70a-3693" includeChildSelections="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Bayonet" id="8ca1-ca34-483c-f472" hidden="false" type="profile" targetId="63d9-8e46-3596-31c6"/>
+        <infoLink name="Grognard Rifle" id="aebc-6b04-9bab-a9d6" hidden="false" type="profile" targetId="8684-5757-b38d-4f2a"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Infirmier de Combat" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="988b-0343-674c-3d2f">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Medic!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="1282-b99a-cf27-dae5">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Action: The bearer or a model in base contact may heal d5 wounds.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Through grit alone!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="2686-f7e1-5db8-681c">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Action: Friendly models within 6&quot; may remove 1 Stress.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="97"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="43d6-4831-15a4-795d" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sergent de Ligne" hidden="false" id="f237-3d25-a481-3db4" sortIndex="9" collective="true">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="93"/>
+      </costs>
+      <profiles>
+        <profile name="Sergent de Ligne" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="0f5c-f70a-468d-8ce1">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Inspiring Presence" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3c46-395f-02a4-5214">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that activate within 6&quot; of this Model may remove 1 Stress at the start of their Activation.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Push on!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="55c1-3955-21c5-bc1a">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that Activate within 4&quot; of this Model may add 2&quot; to their Movement.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="b7a9-4b5b-2e22-a601" includeChildSelections="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Bayonet" id="9e1c-9baf-9389-8f90" hidden="false" type="profile" targetId="63d9-8e46-3596-31c6"/>
+        <infoLink name="Grognard Rifle" id="b9b4-3395-f679-1697" hidden="false" type="profile" targetId="8684-5757-b38d-4f2a"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="393f-943b-4227-dc32" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Marqueur de Mort" hidden="false" id="a069-3625-d1e5-db41" sortIndex="10" collective="true">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="92"/>
+      </costs>
+      <profiles>
+        <profile name="Marqueur de Mort" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="48fe-af92-496f-3b42">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">3</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sharpshooter" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="09e0-7c5e-eae9-2fe1">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Ignores Intervening Terrain when making a Ranged Attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Precision Shot" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3bf9-bfee-2d92-f897">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This model&apos;s ranged attacks gain the Keyword Crit AP.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Bayonet" id="258f-ccd9-f20f-e8a6" hidden="false" type="profile" targetId="63d9-8e46-3596-31c6"/>
+        <infoLink name="Grognard Rifle" id="e0ea-3282-59ab-88ec" hidden="false" type="profile" targetId="8684-5757-b38d-4f2a"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="ea7e-b836-a2f9-c87a" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Vétéran de Ligne" hidden="false" id="f22b-0dbd-812b-f400" collective="true" sortIndex="11">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="93"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="46c8-ffc7-054b-91de" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="26d0-3dfd-5097-fa96" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Kinetic Shield" id="a834-da08-1a4f-1ea8" hidden="false" type="profile" targetId="b748-35e4-8a78-62ec"/>
+        <infoLink name="Bayonet" id="07f1-6760-c513-697c" hidden="false" type="profile" targetId="63d9-8e46-3596-31c6"/>
+        <infoLink name="Grognard Rifle" id="353f-5f0a-a21c-4083" hidden="false" type="profile" targetId="8684-5757-b38d-4f2a"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Veteran" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="46fa-193c-7616-6c71">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Roll a d10. On 6+ this model may make an additional Action once per Activation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Voltigeur" hidden="false" id="0110-56ec-b076-b72b" sortIndex="12" collective="true">
+      <infoLinks>
+        <infoLink name="Grognard Rifle" id="a02d-08af-ae40-b03c" hidden="false" type="profile" targetId="8684-5757-b38d-4f2a"/>
+        <infoLink name="Bayonet" id="8676-5729-8b93-3ccc" hidden="false" type="profile" targetId="63d9-8e46-3596-31c6"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Voltigeur" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="9ec2-f5f4-ec74-ec6f">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">8</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">4</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Skirmisher" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="35d1-018b-4a8b-d03f">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17"> This Model ignores the effects of Difficult Ground and receives an additional +1 to Defence Rolls when in Cover.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="93"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <entryLinks>
-    <entryLink targetId="766a-ea93-b09d-5107" id="3e7c-ce01-ea58-15fb" type="selectionEntry" name="Commandant de Ligne" hidden="false"/>
-    <entryLink import="true" name="Garde d&apos;Assaut" hidden="false" id="db6e-57b0-5117-5505" targetId="3f9c-cb9f-2431-c804" type="selectionEntry"/>
-    <entryLink import="true" name="Garde de Flame" hidden="false" id="9fe7-c47e-063f-afce" targetId="397e-0f3c-6ef6-e990" type="selectionEntry"/>
+    <entryLink targetId="7e76-ee38-ef5a-e682" id="3cf7-f58c-6d1e-b478" type="selectionEntry" name="Garde de Fusioner" hidden="false" sortIndex="4"/>
+    <entryLink targetId="7506-33ab-5464-cf92" id="3260-380b-b1ea-5674" type="selectionEntry" name="Garde de Kinetic" hidden="false" sortIndex="2"/>
+    <entryLink targetId="766a-ea93-b09d-5107" id="3e7c-ce01-ea58-15fb" type="selectionEntry" name="Commandant de Ligne" hidden="false" sortIndex="1"/>
+    <entryLink import="true" name="Garde d&apos;Assaut" hidden="false" id="db6e-57b0-5117-5505" targetId="3f9c-cb9f-2431-c804" type="selectionEntry" sortIndex="6"/>
+    <entryLink import="true" name="Garde de Flame" hidden="false" id="9fe7-c47e-063f-afce" targetId="397e-0f3c-6ef6-e990" type="selectionEntry" sortIndex="5"/>
+    <entryLink import="true" name="Garde de Grenade" hidden="false" id="2535-f863-af37-bf13" targetId="7fc4-520e-f8fd-baf9" type="selectionEntry" sortIndex="3"/>
+    <entryLink import="true" name="Officier de Coordination" hidden="false" id="e2ae-fb46-d65f-0db9" targetId="8d6f-2906-f75f-90c7" type="selectionEntry" sortIndex="7"/>
+    <entryLink import="true" name="Infirmier de Combat" hidden="false" id="d482-101b-65d5-016e" targetId="5cd9-b22b-40f3-fdcf" type="selectionEntry" sortIndex="8"/>
+    <entryLink import="true" name="Sergent de Ligne" hidden="false" id="e52b-93e1-cf83-782f" targetId="f237-3d25-a481-3db4" type="selectionEntry" sortIndex="9"/>
+    <entryLink import="true" name="Marqueur de Mort" hidden="false" id="0b72-d64c-4993-e12c" targetId="a069-3625-d1e5-db41" type="selectionEntry" sortIndex="10"/>
+    <entryLink import="true" name="Vétéran de Ligne" hidden="false" id="3b87-8a35-ecd5-588e" targetId="f22b-0dbd-812b-f400" type="selectionEntry" sortIndex="11"/>
+    <entryLink import="true" name="Voltigeur" hidden="false" id="c8d4-638c-2fbb-0842" targetId="0110-56ec-b076-b72b" type="selectionEntry" sortIndex="12"/>
   </entryLinks>
 </catalogue>

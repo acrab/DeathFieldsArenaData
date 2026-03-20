@@ -21,6 +21,63 @@
     <rule name="Slow" id="57e3-ad54-d3e0-2ce4" hidden="false">
       <description>Ranged Weapons with the Keyword Slow may only make one Ranged Attack Action per Activation.</description>
     </rule>
+    <rule name="Blast" id="0d2e-032c-2e59-8737" hidden="false">
+      <description>A weapon with the Blast (X) Keyword will cause an additional 1 point of Damage for each successful hit to all Models within (X)” of the original Target Model. Any Models wounded as a result of this damage are Knocked Back directly away from the original target Model</description>
+    </rule>
+    <rule name="Cavalry" id="a16a-c7b6-1a1a-8b97" hidden="false">
+      <description>Models with the Cavalry Keyword are not permitted to move vertically under any circumstances unless via ramps or stairs. They may not Climb or use Ladders, but they may Jump.</description>
+    </rule>
+    <rule name="Charged" id="24bc-53e9-4162-f72d" hidden="false">
+      <description>Models/Weapons with the Keyword Charged(X) may make a Charged Shot Action(2).</description>
+    </rule>
+    <rule name="Crit Damage" id="202c-cae0-4669-2c81" hidden="false">
+      <description>The Keyword Crit Damage affords the Attacker an extra point of Damage to their Attacks for every natural roll of a “0”.</description>
+    </rule>
+    <rule name="Crit Modifier" id="bf9c-9719-1bdb-95d8" hidden="false">
+      <description>The Keyword Crit Modifier affords the Attacker an additional -1 Armour Penetration to their Attacks for every natural roll of a “0”.</description>
+    </rule>
+    <rule name="Crit Stress" id="8d8a-b732-b14f-6a49" hidden="false">
+      <description>The Keyword Crit Stress causes the Defender to immediately receive 1 Stress for every natural roll of a “0” in the Attacker’s Attack roll.</description>
+    </rule>
+    <rule name="Ignores Cover" id="3c2c-c9a3-5e2e-1c9a" hidden="false">
+      <description>Any Attack made with the Keyword Ignores Cover prevents the Defender from gaining any benefit of Cover or Defensive Positions.</description>
+    </rule>
+    <rule name="Ignores Intervening" id="9fe6-2e36-86a0-3248" hidden="false">
+      <description>Any Attack made with the Keyword Ignores Intervening prevents the negative effect on Ranged Attacks made over Intervening Terrain.</description>
+    </rule>
+    <rule name="Immobile" id="1325-0e62-c7a4-c95c" hidden="false">
+      <description>Models with the Immobile Keyword may not make Move Actions under any circumstances and are never Knocked Back.</description>
+    </rule>
+    <rule name="Knock Back" id="8e0f-c43f-c9a0-725d" hidden="false">
+      <description>Models targeted by a weapon with the Knock Back keyword are Knocked Back an additional 1&quot; for each damage caused.</description>
+    </rule>
+    <rule name="Large Target" id="033f-00f4-0226-5d4a" hidden="false">
+      <description>When targeting a Model with the Keyword Large Target, all Ranged Attacks gain a +1 modifier to Ranged Attack rolls and gain the Ignores Intervening Keyword.</description>
+    </rule>
+    <rule name="Mobile" id="0d4f-621c-99a2-20fc" hidden="false">
+      <description>Weapons with the Keyword Mobile ignore the negative modifier to Ranged Attack rolls for having performed a Move action prior to the Ranged Attack Action during the same Activation.</description>
+    </rule>
+    <rule name="Order" id="c412-10e3-d33b-2cc8" hidden="false">
+      <description>One Model may issue an Order to another Model within 6&quot;. The issuing Model transfers one of its available actions to the receiving Model. Only Models with the Order keyword may perform this Action. The receiving Model must not have an Activation Token.</description>
+    </rule>
+    <rule name="Shield Breaker" id="0fce-1bfb-d822-e145" hidden="false">
+      <description>The Keyword Shield Breaker prevents the Defender from making any Shield Saves available to them against this Attack.</description>
+    </rule>
+    <rule name="Shock" id="7a3c-3adf-7add-49f2" hidden="false">
+      <description>The Keyword Shock causes the Defender to immediately receive 1 Stress for each successful hit in the Ranged or Melee Attack roll.</description>
+    </rule>
+    <rule name="Split Fire" id="0bb9-a86d-c2c0-2e34" hidden="false">
+      <description>A Model with the Keyword Split Fire (X) may choose multiple Models as the target of its Ranged Attack during Step 2 of the Ranged Attack Sequence. Each target Model must be within X inches of one another. The total number of Attacks on the Weapons profile should be split between the target Models. The number of Attacks allocated to each target is chosen by the Attacking player.
+• Each target Model may choose to make Reactions as normal. Resolve the rest of the Ranged Attack Sequence separately for each target.</description>
+    </rule>
+    <rule name="Steadfast" id="eba8-6ab1-0e4d-6c6c" hidden="false">
+      <description>A Model with the Keyword Steadfast is not Knocked Back at the end of Ranged or Melee Attack Sequences.</description>
+    </rule>
+    <rule name="Weapons Platform" id="9722-e4dc-33cd-deb1" hidden="false">
+      <description>A Model with the Keyword Weapons Platform is treated like any other Model in the Arena with the following exceptions:
+• All Actions become Action (2) regardless of the original Action cost. This means every Action the Model performs uses two of its Action Limit.
+• The Model cannot use the Interact Action in any Match-up.</description>
+    </rule>
   </sharedRules>
   <profileTypes>
     <profileType name="Unit" id="a7c4-551e-ab0b-40af" hidden="false" kind="model">
@@ -35,13 +92,11 @@
     </profileType>
     <profileType name="Abilities" id="ff5c-c011-5331-390c" hidden="false" kind="ability">
       <characteristicTypes>
-        <characteristicType name="Name" id="1267-fbcc-8d41-cdc6"/>
         <characteristicType name="Description" id="dff8-e28e-d097-4a17"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Weapons" id="5824-f0a2-dc41-6692" hidden="false" kind="weapon">
       <characteristicTypes>
-        <characteristicType name="Name" id="7080-3b3b-bdb8-8fa8"/>
         <characteristicType name="Range" id="bae0-651d-c2be-3f69"/>
         <characteristicType name="Number of Attacks" id="e328-621c-36ec-51c9"/>
         <characteristicType name="Damage" id="f90e-d119-e411-093b"/>
