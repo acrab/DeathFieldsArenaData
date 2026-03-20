@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="2a54-c527-731e-348b" name="Ooh Rah" gameSystemId="2fa2-88e4-c8fe-f337" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Hi-Vol. Auto Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e5cd-a00a-e875-8301">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">4</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Ignores Cover, Crit Stress, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="ffb1-fbf4-58bd-ab47">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Flamer" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="7a3f-8b0e-50b8-a6ab">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Template</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">d5</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Template, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hi-Vol. Pistol" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="b718-c3ea-c2ea-7bbf">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">4</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Ignores Cover, Mobile</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hi-Vol. Carbine (Auto)" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="107d-c8e6-aa6b-896b">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">12&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Ignores Cover, Mobile</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hi-Vol. SMG" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e2c4-2b61-ae95-44f8">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">4</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Ignores Cover, Mobile</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hi-Vol. Sniper Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="1a74-94fb-d7b4-8048">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">28&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">5</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">2</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Ignores Cover, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shotgun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5b83-8f8f-80ae-65c2">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Knock Back, Mobile</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hi-Vol. Carbine" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="32ea-5d35-8027-57dc">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Ignores Cover, Mobile</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shock Grenades" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="f1a4-58bc-b87e-2dfb">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">-</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Shock, Mobile</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Lieutenant" hidden="false" id="a3a9-3d22-5e22-6b47" sortIndex="1" defaultAmount="1">
+      <categoryLinks>
+        <categoryLink name="Captain" hidden="false" id="cfe7-3652-b616-f72c" targetId="580d-6afb-dc8f-5dac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="108"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Hi-Vol. Pistol" id="a1ac-da5e-4146-eae0" hidden="false" type="profile" targetId="b718-c3ea-c2ea-7bbf"/>
+        <infoLink name="Fists" id="025a-5c16-2c08-bddd" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Command" id="db9f-3f8a-c83b-eb32" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Lieutenant" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="87d5-fb57-ca1d-e0a6">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Semper-Fi!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="f84c-ccb4-8918-1710">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When this Model Activates, Friendly models within 6&quot; may remove 1 Stress.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Target Overlay" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3b72-e757-e4fc-1b0a">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models within 6&quot; ignore Intervening Terrain modifier during Ranged Attack Actions.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leathernecks" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="78a7-8074-f267-6f65">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Models in this team may re-roll one die per Defence Roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="1971-0402-f17e-7352" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Staff Sergeant" hidden="false" id="d076-8473-d643-158a" defaultAmount="" sortIndex="2">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="70ee-1e2f-0079-a820" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="108"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fists" id="16c8-1f6e-4fa7-79cc" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Command" id="80e1-8510-0d6b-592d" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Hi-Vol. SMG" id="ddf1-4941-dfe0-018e" hidden="false" type="profile" targetId="e2c4-2b61-ae95-44f8"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Staff Sergeant" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="ea83-e582-49cb-9e85">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Inspiring Presence" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="2411-6d61-0098-d5e9">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Models that activate within 6&quot; of this model may remove 1 stress at the
+start of their Activation.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Tactical Advisor" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="1507-59cc-1dd5-bcb4">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models within 4&quot; may re-roll one ranged Attack die per Action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="6456-3989-0372-bfce" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sergeant" hidden="false" id="f214-785b-f58e-8a78" defaultAmount="" sortIndex="3">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="638d-7209-a4d6-831b" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="99"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fists" id="ce88-935d-c6c3-18e0" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Command" id="78d8-e1af-e698-40d1" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Hi-Vol. Carbine" id="16c6-9a0f-16e4-3849" hidden="false" type="profile" targetId="32ea-5d35-8027-57dc"/>
+        <infoLink name="Hi-Vol. Carbine (Auto)" id="d716-1af1-3008-3f83" hidden="false" type="profile" targetId="107d-c8e6-aa6b-896b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Sergeant" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="7111-7f0a-1ee9-2532">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ooh Rah!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="87e7-86b5-f5b3-ebb5">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Action: Friendly Models within 6&quot; may remove d5 Stress.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="0492-9f5c-c911-dd0f" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Auto Laser Rifleman" hidden="false" id="e441-aed7-2a34-0bd1" sortIndex="4" collective="true">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="27c7-badd-d8ec-3265" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="455b-326d-2117-9a42" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Hi-Vol. Auto Gun" id="c658-7376-b4e0-3f28" hidden="false" type="profile" targetId="e5cd-a00a-e875-8301"/>
+        <infoLink name="Fists" id="8993-65a8-150e-3d35" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Overload" id="c448-04b3-13ff-d036" hidden="false" type="profile" targetId="15bf-d163-61d3-c2d3"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Auto Laser Rifleman" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="834e-f55a-34cf-c51d">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="99"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Flamer Rifleman" hidden="false" id="1271-1741-4403-305a" collective="true" sortIndex="5">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="52c8-5c84-6cd8-4fb8" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="e2cf-6991-26db-038e" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Fists" id="a66d-4ecf-6115-9a60" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Flamer" id="06e8-263e-8e22-7f3e" hidden="false" type="profile" targetId="7a3f-8b0e-50b8-a6ab"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Flamer Rifleman" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="ebe2-4ef0-8cf9-7e8d">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Burn &apos;em out!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="0547-dcf0-47cf-0ac8">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may ignore the Flamer Slow Keyword. If this Model performs two Ranged Attack Actions it gains +1 Stress.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="98"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sniper" hidden="false" id="afb5-fea9-7b3f-1e54" sortIndex="6" collective="true">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="2ff3-3508-0932-5b04" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="110"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="ac3b-8841-96e6-8f0a" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Fists" id="9033-13dc-9b6b-ab58" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Hi-Vol. Sniper Rifle" id="c42f-e72b-cfd1-8d70" hidden="false" type="profile" targetId="1a74-94fb-d7b4-8048"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Sniper" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="f2ba-48fd-3da8-fdee">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">3</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Digital Optics" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="4a8b-a877-3228-ade7" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may re-roll one Failed Ranged Attack die.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Concealed Position" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="4134-df99-c2c6-1afe" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model receives an additional +1 to Defence Rolls when benefiting from Cover.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Breacher" hidden="false" id="fb21-fbbc-31b9-7815" collective="true" sortIndex="7">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="1a15-3d25-222b-1f84" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="98"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="390a-d105-2a78-98be" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Fists" id="5d6b-ba50-ebf8-4b49" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Shotgun" id="c4e3-d8b9-195c-b102" hidden="false" type="profile" targetId="5b83-8f8f-80ae-65c2"/>
+        <infoLink name="Shock Grenades" id="6f94-4541-d167-2ae7" hidden="false" type="profile" targetId="f1a4-58bc-b87e-2dfb"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Breacher" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="e1ef-f679-4fc7-7d5f">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Combat Medic" hidden="false" id="c2a6-0416-3079-406d" collective="true" sortIndex="8">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="d355-239a-3068-4780" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="100"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="bae2-5192-7d9c-c821" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Fists" id="ef59-23f3-61ce-b0c0" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Medic!" id="b4f9-6e0a-e688-9d1b" hidden="false" type="profile" targetId="1282-b99a-cf27-dae5"/>
+        <infoLink name="Hi-Vol. Carbine" id="8688-4f07-2741-ea3d" hidden="false" type="profile" targetId="32ea-5d35-8027-57dc"/>
+        <infoLink name="Hi-Vol. Carbine (Auto)" id="b58a-306b-f68f-883c" hidden="false" type="profile" targetId="107d-c8e6-aa6b-896b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Combat Medic" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="de5c-2b64-cc5a-feae">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Field Surgeon" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="d760-6224-2bc6-e007" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models within 4&quot; of this Model gain an additional 8+ Save against all Damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fire Team Leader" hidden="false" id="d859-ed36-f0c0-61b2" collective="true" sortIndex="9">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="e15a-fbcb-81f5-6ec3" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="94"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="roster" shared="true" id="bfd6-b798-efae-9782" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
+      <infoLinks>
+        <infoLink name="Fists" id="0d31-d30b-8e8a-0c7e" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Command" id="e472-b12d-5c1d-2631" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Hi-Vol. Carbine" id="983e-44ba-796b-e123" hidden="false" type="profile" targetId="32ea-5d35-8027-57dc"/>
+        <infoLink name="Hi-Vol. Carbine (Auto)" id="aedd-96d5-531b-2d8f" hidden="false" type="profile" targetId="107d-c8e6-aa6b-896b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Fire Team Leader" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="26cf-fc82-c539-ce70">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire Team Leader (x)" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3c4e-c565-b37c-1e92" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May include 1 Fire Team Leader in Team for every 2 Rifleman.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fire Coordinator" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="1410-ff78-5c47-9ff3" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models within 4&quot; of this Model gain +1 to Ranged Attack rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <modifiers>
+        <modifier type="increment" value="1" field="bfd6-b798-efae-9782">
+          <repeats>
+            <repeat value="2" repeats="1" field="selections" scope="roster" childId="f616-386c-687a-d59e" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
+          </repeats>
+          <comment>May include 1 Fire Team Leader in Team for every 2 Rifleman.</comment>
+        </modifier>
+      </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rifleman" hidden="false" id="f616-386c-687a-d59e" collective="true" sortIndex="10">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="1174-c7b8-c147-7544" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="89"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fists" id="2921-cee3-c256-5681" hidden="false" type="profile" targetId="ffb1-fbf4-58bd-ab47"/>
+        <infoLink name="Hi-Vol. Carbine" id="0832-6034-ace5-f2c2" hidden="false" type="profile" targetId="32ea-5d35-8027-57dc"/>
+        <infoLink name="Hi-Vol. Carbine (Auto)" id="a0da-cf95-bd97-7e25" hidden="false" type="profile" targetId="107d-c8e6-aa6b-896b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Sniper" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="8ca2-41fc-f89b-de20">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">3</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="It&apos;s What We Do" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="8efb-8116-4942-ad1f" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May re-roll one Ranged Attack Dice.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Lieutenant" hidden="false" id="3512-f384-6859-7949" targetId="a3a9-3d22-5e22-6b47" type="selectionEntry"/>
+    <entryLink import="true" name="Staff Sergeant" hidden="false" id="e2c7-ca78-c246-11cf" targetId="d076-8473-d643-158a" type="selectionEntry"/>
+    <entryLink import="true" name="Sergeant" hidden="false" id="dc7c-9ae9-194d-e6ed" targetId="f214-785b-f58e-8a78" type="selectionEntry"/>
+    <entryLink import="true" name="Auto Laser Rifleman" hidden="false" id="4659-1a43-8149-64fd" targetId="e441-aed7-2a34-0bd1" type="selectionEntry"/>
+    <entryLink import="true" name="Flamer Rifleman" hidden="false" id="c466-8b6a-0762-1ba0" targetId="1271-1741-4403-305a" type="selectionEntry"/>
+    <entryLink import="true" name="Sniper" hidden="false" id="09e2-f422-297c-56e5" targetId="afb5-fea9-7b3f-1e54" type="selectionEntry"/>
+    <entryLink import="true" name="Rifleman" hidden="false" id="3fdb-319d-037d-f3bb" targetId="f616-386c-687a-d59e" type="selectionEntry"/>
+    <entryLink import="true" name="Fire Team Leader" hidden="false" id="ce1c-c5e7-9066-824a" targetId="d859-ed36-f0c0-61b2" type="selectionEntry"/>
+    <entryLink import="true" name="Combat Medic" hidden="false" id="ba03-1593-53e6-0e7e" targetId="c2a6-0416-3079-406d" type="selectionEntry"/>
+    <entryLink import="true" name="Breacher" hidden="false" id="6b22-7bd6-b402-b81f" targetId="fb21-fbbc-31b9-7815" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

@@ -46,36 +46,36 @@
       <description>Any Attack made with the Keyword Ignores Intervening prevents the negative effect on Ranged Attacks made over Intervening Terrain.</description>
     </rule>
     <rule name="Immobile" id="1325-0e62-c7a4-c95c" hidden="false">
-      <description>Models with the Immobile Keyword may not make Move Actions under any circumstances and are never Knocked Back.</description>
+      <description>Models with the Immobile Keyword may not make Move Actions under any circumstances and are never Knocked Back.</description>
     </rule>
     <rule name="Knock Back" id="8e0f-c43f-c9a0-725d" hidden="false">
-      <description>Models targeted by a weapon with the Knock Back keyword are Knocked Back an additional 1&quot; for each damage caused.</description>
+      <description>Models targeted by a weapon with the Knock Back keyword are Knocked Back an additional 1&quot; for each damage caused.</description>
     </rule>
     <rule name="Large Target" id="033f-00f4-0226-5d4a" hidden="false">
-      <description>When targeting a Model with the Keyword Large Target, all Ranged Attacks gain a +1 modifier to Ranged Attack rolls and gain the Ignores Intervening Keyword.</description>
+      <description>When targeting a Model with the Keyword Large Target, all Ranged Attacks gain a +1 modifier to Ranged Attack rolls and gain the Ignores Intervening Keyword.</description>
     </rule>
     <rule name="Mobile" id="0d4f-621c-99a2-20fc" hidden="false">
-      <description>Weapons with the Keyword Mobile ignore the negative modifier to Ranged Attack rolls for having performed a Move action prior to the Ranged Attack Action during the same Activation.</description>
+      <description>Weapons with the Keyword Mobile ignore the negative modifier to Ranged Attack rolls for having performed a Move action prior to the Ranged Attack Action during the same Activation.</description>
     </rule>
     <rule name="Order" id="c412-10e3-d33b-2cc8" hidden="false">
-      <description>One Model may issue an Order to another Model within 6&quot;. The issuing Model transfers one of its available actions to the receiving Model. Only Models with the Order keyword may perform this Action. The receiving Model must not have an Activation Token.</description>
+      <description>One Model may issue an Order to another Model within 6&quot;. The issuing Model transfers one of its available actions to the receiving Model. Only Models with the Order keyword may perform this Action. The receiving Model must not have an Activation Token.</description>
     </rule>
     <rule name="Shield Breaker" id="0fce-1bfb-d822-e145" hidden="false">
-      <description>The Keyword Shield Breaker prevents the Defender from making any Shield Saves available to them against this Attack.</description>
+      <description>The Keyword Shield Breaker prevents the Defender from making any Shield Saves available to them against this Attack.</description>
     </rule>
     <rule name="Shock" id="7a3c-3adf-7add-49f2" hidden="false">
-      <description>The Keyword Shock causes the Defender to immediately receive 1 Stress for each successful hit in the Ranged or Melee Attack roll.</description>
+      <description>The Keyword Shock causes the Defender to immediately receive 1 Stress for each successful hit in the Ranged or Melee Attack roll.</description>
     </rule>
     <rule name="Split Fire" id="0bb9-a86d-c2c0-2e34" hidden="false">
-      <description>A Model with the Keyword Split Fire (X) may choose multiple Models as the target of its Ranged Attack during Step 2 of the Ranged Attack Sequence. Each target Model must be within X inches of one another. The total number of Attacks on the Weapons profile should be split between the target Models. The number of Attacks allocated to each target is chosen by the Attacking player.
-• Each target Model may choose to make Reactions as normal. Resolve the rest of the Ranged Attack Sequence separately for each target.</description>
+      <description>A Model with the Keyword Split Fire (X) may choose multiple Models as the target of its Ranged Attack during Step 2 of the Ranged Attack Sequence. Each target Model must be within X inches of one another. The total number of Attacks on the Weapons profile should be split between the target Models. The number of Attacks allocated to each target is chosen by the Attacking player.
+• Each target Model may choose to make Reactions as normal. Resolve the rest of the Ranged Attack Sequence separately for each target.</description>
     </rule>
     <rule name="Steadfast" id="eba8-6ab1-0e4d-6c6c" hidden="false">
-      <description>A Model with the Keyword Steadfast is not Knocked Back at the end of Ranged or Melee Attack Sequences.</description>
+      <description>A Model with the Keyword Steadfast is not Knocked Back at the end of Ranged or Melee Attack Sequences.</description>
     </rule>
     <rule name="Weapons Platform" id="9722-e4dc-33cd-deb1" hidden="false">
-      <description>A Model with the Keyword Weapons Platform is treated like any other Model in the Arena with the following exceptions:
-• All Actions become Action (2) regardless of the original Action cost. This means every Action the Model performs uses two of its Action Limit.
+      <description>A Model with the Keyword Weapons Platform is treated like any other Model in the Arena with the following exceptions:
+• All Actions become Action (2) regardless of the original Action cost. This means every Action the Model performs uses two of its Action Limit.
 • The Model cannot use the Interact Action in any Match-up.</description>
     </rule>
   </sharedRules>
@@ -92,7 +92,7 @@
     </profileType>
     <profileType name="Abilities" id="ff5c-c011-5331-390c" hidden="false" kind="ability">
       <characteristicTypes>
-        <characteristicType name="Description" id="dff8-e28e-d097-4a17"/>
+        <characteristicType name="Description" id="dff8-e28e-d097-4a17" kind="longText"/>
       </characteristicTypes>
     </profileType>
     <profileType name="Weapons" id="5824-f0a2-dc41-6692" hidden="false" kind="weapon">
@@ -109,10 +109,19 @@
     <costType name="Points" id="7c16-6b63-1286-bf82" defaultCostLimit="1000"/>
   </costTypes>
   <sharedProfiles>
-    <profile name="Command" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="8d25-7521-f1ae-cd54">
+    <profile name="Command" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="8d25-7521-f1ae-cd54" noindex="true">
       <characteristics>
-        <characteristic name="Name" typeId="1267-fbcc-8d41-cdc6">Command</characteristic>
-        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This unit has the Command Keyword</characteristic>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This unit has the Order Keyword.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Overload" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="15bf-d163-61d3-c2d3" noindex="true">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May re-roll any Ranged Attack die. If you choose to re-roll any dice, at the end of the Action this model receives 1 Stress.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Medic!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="1282-b99a-cf27-dae5" noindex="true">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Action: The bearer or a model in base contact may heal d5 wounds.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
