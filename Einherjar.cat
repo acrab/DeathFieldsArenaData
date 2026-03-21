@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="c85a-43a2-5245-33b0" name="Einherjar" gameSystemId="2fa2-88e4-c8fe-f337" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Blood Axe" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="0470-aae3-ee10-707d" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Damage</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dual Blood Axe" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="d1e7-3ca8-1b84-2e2e" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">4</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-2</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="dd07-0aa7-ed2f-694b" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Grenade Launcher" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="08ff-71d4-b661-20c6" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Blast (3), Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Flamer" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="bf7e-af23-9a69-7147" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Template</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">d5</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Knife" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e274-61ce-de9c-ebf6" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="M.A.R." typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="df14-b731-b7cb-3d87" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit AP</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shotgun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="86e3-397d-3e27-22fa" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Thunder Cannon" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="3840-3a5a-1fdb-4d75">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-2</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Stress, Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Svalinn Shield" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="998e-81b4-ba24-ccd9">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This model gains a 8+ shield save and adds +1 extra dice to their Defence rolls in Melee and Ranged combat. .</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slayer&apos;s Instinct" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="0421-4686-da51-9561">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may re-roll any of its Melee Attack rolls.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Konungr" hidden="false" id="0389-1e64-6250-603e" defaultAmount="1" sortIndex="1">
+      <categoryLinks>
+        <categoryLink name="Captain" hidden="false" id="850b-cf11-49dd-d9b3" targetId="580d-6afb-dc8f-5dac" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="106"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Hearth-Call" id="32e5-fcb5-c0e5-d761" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Svalinn Shield" id="f717-0295-b8a4-f62d" hidden="false" type="profile" targetId="998e-81b4-ba24-ccd9"/>
+        <infoLink name="Slayer&apos;s Instinct" id="4bd6-0bef-08eb-d8b0" hidden="false" type="profile" targetId="0421-4686-da51-9561"/>
+        <infoLink name="Blood Axe" id="e3ac-9d73-e772-a560" hidden="false" type="profile" targetId="0470-aae3-ee10-707d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Shield Wall!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="5e56-faef-0890-3033">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Models in this Team receive +1 to Defence Rolls when within 2&quot; of another Friendly Model.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Konungr" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="5287-062e-46f9-a83e">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Jarl" hidden="false" id="dd01-915c-922d-7929" defaultAmount="" sortIndex="2" collective="true">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="bfcd-68ca-a87e-e97b" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="101"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Command" id="6db6-2473-073c-d04f" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Svalinn Shield" id="c562-8e39-8427-0289" hidden="false" type="profile" targetId="998e-81b4-ba24-ccd9"/>
+        <infoLink name="Blood Axe" id="6067-1a88-40ea-ea05" hidden="false" type="profile" targetId="0470-aae3-ee10-707d"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Raid!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="5738-5292-b31f-e3c5">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that Activate within 4&quot; of this Model may add 2&quot; to their Movement.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jarl" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="8d10-bd25-aeba-2b76">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="82aa-f06e-55c6-94f3" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Skald" hidden="false" id="e57a-19eb-5b96-046c" defaultAmount="" collective="true" sortIndex="3">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="f486-12f1-58c1-4544" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="101"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="M.A.R." id="c98f-3027-9a8a-cba6" hidden="false" type="profile" targetId="df14-b731-b7cb-3d87"/>
+        <infoLink name="Fists" id="b1ee-7ba0-a8a3-6111" hidden="false" type="profile" targetId="dd07-0aa7-ed2f-694b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Skald-Song" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="a458-9567-5ffc-8cd7">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that Activate within 6&quot; of this Model may remove 1 Stress at the start of their Activation.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Skald" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="ea4e-d5cf-2458-6f0b">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Echoes of Valhalla" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="a1b5-e3ba-3d6d-48e6">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When this Model Activates, Friendly models within 6&quot; may remove 1 Stress.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="6e62-2c06-222f-1c83" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Beserker" hidden="false" id="33d6-e087-a746-8074" defaultAmount="" collective="true" sortIndex="4">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="5e33-fda4-6be0-44de" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="104"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Slayer&apos;s Instinct" id="fba6-d02a-341a-a199" hidden="false" type="profile" targetId="0421-4686-da51-9561"/>
+        <infoLink name="Dual Blood Axe" id="c67a-c5b7-26c7-9f13" hidden="false" type="profile" targetId="d1e7-3ca8-1b84-2e2e"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Beserker" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="63c1-837d-7246-c76c" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Muspel-Warder" hidden="false" id="38d3-45f7-fbca-bd31" defaultAmount="" collective="true" sortIndex="5">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="9ee5-83cc-b6b3-77c2" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="107"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Heavy Flamer" id="ba8f-b96f-7dc6-688e" hidden="false" type="profile" targetId="bf7e-af23-9a69-7147"/>
+        <infoLink name="Fists" id="b117-1a51-3617-19eb" hidden="false" type="profile" targetId="dd07-0aa7-ed2f-694b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Muspel-Warder" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="8bed-d5ab-cb4b-b928" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fury of Muspelheim" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="538c-1e90-bbeb-727e">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When rolling for damage, roll 2 d5 and choose the highest result.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f701-039a-7484-7647" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Thunder Caller" hidden="false" id="abb5-a7d2-3d07-63e7" defaultAmount="" collective="true" sortIndex="6">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="74b1-3d92-35c7-8643" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="101"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Thunder Cannon" id="7dee-95d7-e818-8ad4" hidden="false" type="profile" targetId="3840-3a5a-1fdb-4d75"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Thunder Caller" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="c3b4-e780-46f2-35a2" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="26ae-cd06-b2e6-9041" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sky-Shatterer" hidden="false" id="6d3b-a375-c856-446b" defaultAmount="" collective="true" sortIndex="7">
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="2ce9-fd0c-3ed5-d8a4" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="99"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Grenade Launcher" id="ad0a-fb09-1d15-2086" hidden="false" type="profile" targetId="08ff-71d4-b661-20c6"/>
+        <infoLink name="Fists" id="6a72-befd-3fa1-52f9" hidden="false" type="profile" targetId="dd07-0aa7-ed2f-694b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Sky-Shatterer" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="15af-2341-c03a-b178" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="a63c-5fc4-f91a-344c" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Foringjar" hidden="false" id="a3e1-8beb-effe-e4d3" defaultAmount="" collective="true" sortIndex="8">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="383b-f550-d973-107e" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="99"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="M.A.R." id="4234-184f-e3e4-1965" hidden="false" type="profile" targetId="df14-b731-b7cb-3d87"/>
+        <infoLink name="Knife" id="76c1-80b6-abdb-52be" hidden="false" type="profile" targetId="e274-61ce-de9c-ebf6"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Foringjar" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="dda7-4831-f3e1-ee74" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stalwart" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="8a22-e3b2-ff24-5090" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model is not Knocked Back as the result of a Ranged Attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hird" hidden="false" id="2316-17f1-7c68-98b8" defaultAmount="" collective="true" sortIndex="9">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="a09e-33ff-f9b9-a4cd" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="89"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Shotgun" id="876e-f9be-0083-32f8" hidden="false" type="profile" targetId="86e3-397d-3e27-22fa"/>
+        <infoLink name="Fists" id="79d3-25af-e474-b079" hidden="false" type="profile" targetId="dd07-0aa7-ed2f-694b"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Hird" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="a2f2-0352-d833-5b11" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Steady-Hand" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="6409-9b7d-c2f0-a7e8" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May re-roll one failed Ranged Attack Dice per Ranged Attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bondsman" hidden="false" id="75f4-e246-ff97-9377" defaultAmount="" collective="true" sortIndex="10">
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="4ba3-cf12-f952-6e4a" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="86"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Fists" id="79d3-25af-e474-b079" hidden="false" type="profile" targetId="dd07-0aa7-ed2f-694b"/>
+        <infoLink name="M.A.R." id="d6ae-274f-54c4-e978" hidden="false" type="profile" targetId="df14-b731-b7cb-3d87"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Bondsman" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="a2f2-0352-d833-5b11" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">4</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">4</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Bondsman" hidden="false" id="49d9-4507-6816-6701" targetId="75f4-e246-ff97-9377" type="selectionEntry"/>
+    <entryLink import="true" name="Hird" hidden="false" id="0986-5413-825f-55ee" targetId="2316-17f1-7c68-98b8" type="selectionEntry"/>
+    <entryLink import="true" name="Foringjar" hidden="false" id="b112-ea96-b42c-add4" targetId="a3e1-8beb-effe-e4d3" type="selectionEntry"/>
+    <entryLink import="true" name="Sky-Shatterer" hidden="false" id="1d99-3b2a-f683-e861" targetId="6d3b-a375-c856-446b" type="selectionEntry"/>
+    <entryLink import="true" name="Thunder Caller" hidden="false" id="7acd-a69b-f758-6730" targetId="abb5-a7d2-3d07-63e7" type="selectionEntry"/>
+    <entryLink import="true" name="Muspel-Warder" hidden="false" id="bc59-769f-67fe-05fc" targetId="38d3-45f7-fbca-bd31" type="selectionEntry"/>
+    <entryLink import="true" name="Beserker" hidden="false" id="a002-292e-bd36-3ace" targetId="33d6-e087-a746-8074" type="selectionEntry"/>
+    <entryLink import="true" name="Skald" hidden="false" id="17c8-3eeb-cd6d-1db5" targetId="e57a-19eb-5b96-046c" type="selectionEntry"/>
+    <entryLink import="true" name="Jarl" hidden="false" id="dfd6-8a50-d0ce-3ece" targetId="dd01-915c-922d-7929" type="selectionEntry"/>
+    <entryLink import="true" name="Konungr" hidden="false" id="f582-9f1d-3516-5ff7" targetId="0389-1e64-6250-603e" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>
