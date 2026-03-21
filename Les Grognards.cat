@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue library="false" id="3529-d3db-280b-f35f" name="Les Grognards" gameSystemId="2fa2-88e4-c8fe-f337" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
-    <profile name="Bayonet" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="63d9-8e46-3596-31c6">
+    <profile name="Bayonet" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="63d9-8e46-3596-31c6" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Bayonet</characteristic>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
@@ -11,7 +11,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Chain Sabre" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4831-92a8-70ff-df89">
+    <profile name="Chain Sabre" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4831-92a8-70ff-df89" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Chain Sabre</characteristic>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
@@ -21,7 +21,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Energy Pistol" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4fdf-1deb-5017-78cf">
+    <profile name="Energy Pistol" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4fdf-1deb-5017-78cf" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Energy Pistol</characteristic>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
@@ -31,7 +31,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Flamer" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="49f0-f4ff-d12d-23d0">
+    <profile name="Flamer" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="49f0-f4ff-d12d-23d0" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Flamer</characteristic>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Template</characteristic>
@@ -41,7 +41,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Template, Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5cf1-2ae1-5450-3ee0">
+    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5cf1-2ae1-5450-3ee0" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8">Fists</characteristic>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
@@ -51,7 +51,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Frag Grenade" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5b6d-09fb-368e-cdc3">
+    <profile name="Frag Grenade" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5b6d-09fb-368e-cdc3" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
@@ -60,7 +60,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Blast(3), Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="Fusion Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="02de-b5ac-b34e-399f">
+    <profile name="Fusion Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="02de-b5ac-b34e-399f" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8"/>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">12&quot;</characteristic>
@@ -70,7 +70,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit AP, Ignores Cover, Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="Grenade Launcher" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="c6d6-be3d-7f71-6a0c">
+    <profile name="Grenade Launcher" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="c6d6-be3d-7f71-6a0c" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8"/>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
@@ -80,7 +80,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Blast(3), Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="Grognard Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="8684-5757-b38d-4f2a">
+    <profile name="Grognard Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="8684-5757-b38d-4f2a" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8"/>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
@@ -90,7 +90,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Damage</characteristic>
       </characteristics>
     </profile>
-    <profile name="Kinetic Cannon" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4f76-bed0-bd72-2413">
+    <profile name="Kinetic Cannon" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4f76-bed0-bd72-2413" noindex="true">
       <characteristics>
         <characteristic name="Name" typeId="7080-3b3b-bdb8-8fa8"/>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
@@ -116,7 +116,7 @@
         <categoryLink name="Captain" hidden="false" id="2387-5ca7-2bca-319c" targetId="580d-6afb-dc8f-5dac" primary="true"/>
       </categoryLinks>
       <profiles>
-        <profile name="Commandant de Ligne" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="2b7f-6112-bef6-cae4">
+        <profile name="Commandant de Ligne" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="2b7f-6112-bef6-cae4" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -126,12 +126,12 @@
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Alert" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="17f4-6c4e-f209-5a5b">
+        <profile name="Alert" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="17f4-6c4e-f209-5a5b" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May make Reactions whilst it has the Activated token.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Les Troupes de Ligne" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="cf4f-2a9b-2d03-dd80">
+        <profile name="Les Troupes de Ligne" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="cf4f-2a9b-2d03-dd80" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Whenever a model in this team makes a successful Ranged Attack action, other friendly models within 4&quot; and LoS may remove 1 stress.</characteristic>
           </characteristics>
@@ -153,7 +153,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="7ef8-ac48-b298-ebf3" includeChildSelections="true"/>
       </constraints>
       <profiles>
-        <profile name="Garde de Flame" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="a55c-41f5-1c99-fc2e">
+        <profile name="Garde de Flame" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="a55c-41f5-1c99-fc2e" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -163,7 +163,7 @@
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Mur de feu!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="166b-989a-b37b-1541">
+        <profile name="Mur de feu!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="166b-989a-b37b-1541" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may ignore the Slow Keyword. If this Model performs two
 Ranged Attack Actions it gains +1 Stress.</characteristic>
@@ -179,7 +179,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="106"/>
       </costs>
       <profiles>
-        <profile name="Garde d&apos;Assaut" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="32c6-a4e0-5e5e-f603">
+        <profile name="Garde d&apos;Assaut" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="32c6-a4e0-5e5e-f603" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -189,7 +189,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Deadly Precision" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="7828-037b-c920-0a03">
+        <profile name="Deadly Precision" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="7828-037b-c920-0a03" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This model gains Crit Damage on all Melee Attacks</characteristic>
           </characteristics>
@@ -214,7 +214,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="98"/>
       </costs>
       <profiles>
-        <profile name="Garde de Kinetic" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="4c94-9491-41ac-b9c6">
+        <profile name="Garde de Kinetic" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="4c94-9491-41ac-b9c6" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -241,12 +241,12 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <infoLink name="Fists" id="ee42-87d4-c616-e3ff" hidden="false" type="profile" targetId="5cf1-2ae1-5450-3ee0"/>
       </infoLinks>
       <profiles>
-        <profile name="Feu de Pluie!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="7c74-3792-5a1a-746c">
+        <profile name="Feu de Pluie!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="7c74-3792-5a1a-746c" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may ignore the Slow Keyword. If this Model performs two Ranged Attack Actions it gains +1 Stress.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Garde de Grenade" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="c1d7-2d56-b554-bfc2">
+        <profile name="Garde de Grenade" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="c1d7-2d56-b554-bfc2" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -268,7 +268,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <infoLink name="Overload" id="4ff5-9ba2-12d9-0f8f" hidden="false" type="profile" targetId="15bf-d163-61d3-c2d3"/>
       </infoLinks>
       <profiles>
-        <profile name="Garde de Fusioner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="d2ea-e84d-be03-a164">
+        <profile name="Garde de Fusioner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="d2ea-e84d-be03-a164" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -300,7 +300,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <categoryLink name="Core" hidden="false" id="38d1-d7b3-c6aa-e0f6" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
       </categoryLinks>
       <profiles>
-        <profile name="Officier de Coordination" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="8732-7c60-7afb-ea21">
+        <profile name="Officier de Coordination" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="8732-7c60-7afb-ea21" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -310,12 +310,12 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Comms" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="ca0a-bf8f-607c-f17d">
+        <profile name="Comms" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="ca0a-bf8f-607c-f17d" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">A Model with the Order Keyword may issue an order to models within 6&quot; of this  model following all of the rules for issuing orders.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Volley Fire" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="9530-5f81-74b6-2508">
+        <profile name="Volley Fire" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="9530-5f81-74b6-2508" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">All Friendly Models within 4&quot; and LoS of this Model may re-roll one Ranged Attack die per Ranged Attack Action.</characteristic>
           </characteristics>
@@ -336,7 +336,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <infoLink name="Grognard Rifle" id="aebc-6b04-9bab-a9d6" hidden="false" type="profile" targetId="8684-5757-b38d-4f2a"/>
       </infoLinks>
       <profiles>
-        <profile name="Infirmier de Combat" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="988b-0343-674c-3d2f">
+        <profile name="Infirmier de Combat" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="988b-0343-674c-3d2f" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -346,7 +346,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Through grit alone!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="2686-f7e1-5db8-681c">
+        <profile name="Through grit alone!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="2686-f7e1-5db8-681c" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Action: Friendly models within 6&quot; may remove 1 Stress.</characteristic>
           </characteristics>
@@ -364,7 +364,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="93"/>
       </costs>
       <profiles>
-        <profile name="Sergent de Ligne" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="0f5c-f70a-468d-8ce1">
+        <profile name="Sergent de Ligne" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="0f5c-f70a-468d-8ce1" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -374,12 +374,12 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Inspiring Presence" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3c46-395f-02a4-5214">
+        <profile name="Inspiring Presence" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3c46-395f-02a4-5214" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that activate within 6&quot; of this Model may remove 1 Stress at the start of their Activation.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Push on!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="55c1-3955-21c5-bc1a">
+        <profile name="Push on!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="55c1-3955-21c5-bc1a" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that Activate within 4&quot; of this Model may add 2&quot; to their Movement.</characteristic>
           </characteristics>
@@ -401,7 +401,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="92"/>
       </costs>
       <profiles>
-        <profile name="Marqueur de Mort" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="48fe-af92-496f-3b42">
+        <profile name="Marqueur de Mort" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="48fe-af92-496f-3b42" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -411,12 +411,12 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Sharpshooter" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="09e0-7c5e-eae9-2fe1">
+        <profile name="Sharpshooter" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="09e0-7c5e-eae9-2fe1" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Ignores Intervening Terrain when making a Ranged Attack.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Precision Shot" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3bf9-bfee-2d92-f897">
+        <profile name="Precision Shot" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3bf9-bfee-2d92-f897" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This model&apos;s ranged attacks gain the Keyword Crit AP.</characteristic>
           </characteristics>
@@ -446,7 +446,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <infoLink name="Grognard Rifle" id="353f-5f0a-a21c-4083" hidden="false" type="profile" targetId="8684-5757-b38d-4f2a"/>
       </infoLinks>
       <profiles>
-        <profile name="Veteran" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="46fa-193c-7616-6c71">
+        <profile name="Veteran" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="46fa-193c-7616-6c71" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Roll a d10. On 6+ this model may make an additional Action once per Activation.</characteristic>
           </characteristics>
@@ -459,7 +459,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
         <infoLink name="Bayonet" id="8676-5729-8b93-3ccc" hidden="false" type="profile" targetId="63d9-8e46-3596-31c6"/>
       </infoLinks>
       <profiles>
-        <profile name="Voltigeur" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="9ec2-f5f4-ec74-ec6f">
+        <profile name="Voltigeur" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="9ec2-f5f4-ec74-ec6f" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">8</characteristic>
@@ -469,7 +469,7 @@ Ranged Attack Actions it gains +1 Stress.</characteristic>
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Skirmisher" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="35d1-018b-4a8b-d03f">
+        <profile name="Skirmisher" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="35d1-018b-4a8b-d03f" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model ignores the effects of Difficult Ground and receives an additional +1 to Defence Rolls when in Cover.</characteristic>
           </characteristics>

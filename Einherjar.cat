@@ -73,7 +73,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Thunder Cannon" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="3840-3a5a-1fdb-4d75">
+    <profile name="Thunder Cannon" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="3840-3a5a-1fdb-4d75" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
@@ -108,12 +108,12 @@
         <infoLink name="Blood Axe" id="e3ac-9d73-e772-a560" hidden="false" type="profile" targetId="0470-aae3-ee10-707d"/>
       </infoLinks>
       <profiles>
-        <profile name="Shield Wall!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="5e56-faef-0890-3033">
+        <profile name="Shield Wall!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="5e56-faef-0890-3033" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Models in this Team receive +1 to Defence Rolls when within 2&quot; of another Friendly Model.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Konungr" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="5287-062e-46f9-a83e">
+        <profile name="Konungr" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="5287-062e-46f9-a83e" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -125,7 +125,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Jarl" hidden="false" id="dd01-915c-922d-7929" defaultAmount="" sortIndex="2" collective="true">
+    <selectionEntry type="model" import="true" name="Jarl" hidden="false" id="dd01-915c-922d-7929" sortIndex="2" collective="true">
       <categoryLinks>
         <categoryLink name="Core" hidden="false" id="bfcd-68ca-a87e-e97b" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
       </categoryLinks>
@@ -133,17 +133,17 @@
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="101"/>
       </costs>
       <infoLinks>
-        <infoLink name="Command" id="6db6-2473-073c-d04f" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Hearth-Call" id="6db6-2473-073c-d04f" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
         <infoLink name="Svalinn Shield" id="c562-8e39-8427-0289" hidden="false" type="profile" targetId="998e-81b4-ba24-ccd9"/>
         <infoLink name="Blood Axe" id="6067-1a88-40ea-ea05" hidden="false" type="profile" targetId="0470-aae3-ee10-707d"/>
       </infoLinks>
       <profiles>
-        <profile name="Raid!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="5738-5292-b31f-e3c5">
+        <profile name="Raid!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="5738-5292-b31f-e3c5" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that Activate within 4&quot; of this Model may add 2&quot; to their Movement.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Jarl" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="8d10-bd25-aeba-2b76">
+        <profile name="Jarl" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="8d10-bd25-aeba-2b76" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -158,7 +158,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="82aa-f06e-55c6-94f3" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Skald" hidden="false" id="e57a-19eb-5b96-046c" defaultAmount="" collective="true" sortIndex="3">
+    <selectionEntry type="model" import="true" name="Skald" hidden="false" id="e57a-19eb-5b96-046c" collective="true" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Core" hidden="false" id="f486-12f1-58c1-4544" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
       </categoryLinks>
@@ -170,12 +170,12 @@
         <infoLink name="Fists" id="b1ee-7ba0-a8a3-6111" hidden="false" type="profile" targetId="dd07-0aa7-ed2f-694b"/>
       </infoLinks>
       <profiles>
-        <profile name="Skald-Song" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="a458-9567-5ffc-8cd7">
+        <profile name="Skald-Song" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="a458-9567-5ffc-8cd7" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that Activate within 6&quot; of this Model may remove 1 Stress at the start of their Activation.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Skald" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="ea4e-d5cf-2458-6f0b">
+        <profile name="Skald" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="ea4e-d5cf-2458-6f0b" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -185,7 +185,7 @@
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Echoes of Valhalla" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="a1b5-e3ba-3d6d-48e6">
+        <profile name="Echoes of Valhalla" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="a1b5-e3ba-3d6d-48e6" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When this Model Activates, Friendly models within 6&quot; may remove 1 Stress.</characteristic>
           </characteristics>
@@ -195,7 +195,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="6e62-2c06-222f-1c83" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Beserker" hidden="false" id="33d6-e087-a746-8074" defaultAmount="" collective="true" sortIndex="4">
+    <selectionEntry type="model" import="true" name="Beserker" hidden="false" id="33d6-e087-a746-8074" collective="true" sortIndex="4">
       <categoryLinks>
         <categoryLink name="Specialist" hidden="false" id="5e33-fda4-6be0-44de" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
       </categoryLinks>
@@ -219,7 +219,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Muspel-Warder" hidden="false" id="38d3-45f7-fbca-bd31" defaultAmount="" collective="true" sortIndex="5">
+    <selectionEntry type="model" import="true" name="Muspel-Warder" hidden="false" id="38d3-45f7-fbca-bd31" collective="true" sortIndex="5">
       <categoryLinks>
         <categoryLink name="Specialist" hidden="false" id="9ee5-83cc-b6b3-77c2" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
       </categoryLinks>
@@ -241,7 +241,7 @@
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Fury of Muspelheim" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="538c-1e90-bbeb-727e">
+        <profile name="Fury of Muspelheim" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="538c-1e90-bbeb-727e" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When rolling for damage, roll 2 d5 and choose the highest result.</characteristic>
           </characteristics>
@@ -251,7 +251,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="f701-039a-7484-7647" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Thunder Caller" hidden="false" id="abb5-a7d2-3d07-63e7" defaultAmount="" collective="true" sortIndex="6">
+    <selectionEntry type="model" import="true" name="Thunder Caller" hidden="false" id="abb5-a7d2-3d07-63e7" collective="true" sortIndex="6">
       <categoryLinks>
         <categoryLink name="Specialist" hidden="false" id="74b1-3d92-35c7-8643" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
       </categoryLinks>
@@ -277,7 +277,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="26ae-cd06-b2e6-9041" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Sky-Shatterer" hidden="false" id="6d3b-a375-c856-446b" defaultAmount="" collective="true" sortIndex="7">
+    <selectionEntry type="model" import="true" name="Sky-Shatterer" hidden="false" id="6d3b-a375-c856-446b" collective="true" sortIndex="7">
       <categoryLinks>
         <categoryLink name="Specialist" hidden="false" id="2ce9-fd0c-3ed5-d8a4" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
       </categoryLinks>
@@ -304,7 +304,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="a63c-5fc4-f91a-344c" includeChildSelections="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Foringjar" hidden="false" id="a3e1-8beb-effe-e4d3" defaultAmount="" collective="true" sortIndex="8">
+    <selectionEntry type="model" import="true" name="Foringjar" hidden="false" id="a3e1-8beb-effe-e4d3" collective="true" sortIndex="8">
       <categoryLinks>
         <categoryLink name="Core" hidden="false" id="383b-f550-d973-107e" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
       </categoryLinks>
@@ -333,7 +333,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Hird" hidden="false" id="2316-17f1-7c68-98b8" defaultAmount="" collective="true" sortIndex="9">
+    <selectionEntry type="model" import="true" name="Hird" hidden="false" id="2316-17f1-7c68-98b8" collective="true" sortIndex="9">
       <categoryLinks>
         <categoryLink name="Core" hidden="false" id="a09e-33ff-f9b9-a4cd" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
       </categoryLinks>
@@ -362,7 +362,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Bondsman" hidden="false" id="75f4-e246-ff97-9377" defaultAmount="" collective="true" sortIndex="10">
+    <selectionEntry type="model" import="true" name="Bondsman" hidden="false" id="75f4-e246-ff97-9377" collective="true" sortIndex="10">
       <categoryLinks>
         <categoryLink name="Core" hidden="false" id="4ba3-cf12-f952-6e4a" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
       </categoryLinks>

@@ -15,65 +15,66 @@
     <categoryEntry name="Core" id="93ac-01ac-8cb1-3cfa" hidden="false"/>
   </categoryEntries>
   <sharedRules>
-    <rule name="Template" id="b213-bd02-f3b5-7602" hidden="false">
+    <rule name="Template" id="b213-bd02-f3b5-7602" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Weapon with the Keyword Template do not measure the distance of a Ranged Attack. Instead place down the Template with the small end touching the Attacker’s base and the rest of the template over at least one other Model. Models at least partially under the Template - whether friend or foe - are considered to be hit by the Attack. Models hit by a Weapon with the Keyword Template may not make the Fire Back Reaction. All Models that are hit by a weapon with the Keyword Template may make a Reaction</description>
     </rule>
-    <rule name="Slow" id="57e3-ad54-d3e0-2ce4" hidden="false">
+    <rule name="Slow" id="57e3-ad54-d3e0-2ce4" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Ranged Weapons with the Keyword Slow may only make one Ranged Attack Action per Activation.</description>
     </rule>
-    <rule name="Blast" id="0d2e-032c-2e59-8737" hidden="false">
+    <rule name="Blast" id="0d2e-032c-2e59-8737" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>A weapon with the Blast (X) Keyword will cause an additional 1 point of Damage for each successful hit to all Models within (X)” of the original Target Model. Any Models wounded as a result of this damage are Knocked Back directly away from the original target Model</description>
     </rule>
-    <rule name="Cavalry" id="a16a-c7b6-1a1a-8b97" hidden="false">
+    <rule name="Cavalry" id="a16a-c7b6-1a1a-8b97" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Models with the Cavalry Keyword are not permitted to move vertically under any circumstances unless via ramps or stairs. They may not Climb or use Ladders, but they may Jump.</description>
     </rule>
-    <rule name="Charged" id="24bc-53e9-4162-f72d" hidden="false">
+    <rule name="Charged" id="24bc-53e9-4162-f72d" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Models/Weapons with the Keyword Charged(X) may make a Charged Shot Action(2).</description>
     </rule>
-    <rule name="Crit Damage" id="202c-cae0-4669-2c81" hidden="false">
+    <rule name="Crit Damage" id="202c-cae0-4669-2c81" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="32">
       <description>The Keyword Crit Damage affords the Attacker an extra point of Damage to their Attacks for every natural roll of a “0”.</description>
     </rule>
-    <rule name="Crit Modifier" id="bf9c-9719-1bdb-95d8" hidden="false">
+    <rule name="Crit Modifier" id="bf9c-9719-1bdb-95d8" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>The Keyword Crit Modifier affords the Attacker an additional -1 Armour Penetration to their Attacks for every natural roll of a “0”.</description>
+      <alias>Crit AP</alias>
     </rule>
-    <rule name="Crit Stress" id="8d8a-b732-b14f-6a49" hidden="false">
+    <rule name="Crit Stress" id="8d8a-b732-b14f-6a49" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>The Keyword Crit Stress causes the Defender to immediately receive 1 Stress for every natural roll of a “0” in the Attacker’s Attack roll.</description>
     </rule>
-    <rule name="Ignores Cover" id="3c2c-c9a3-5e2e-1c9a" hidden="false">
+    <rule name="Ignores Cover" id="3c2c-c9a3-5e2e-1c9a" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Any Attack made with the Keyword Ignores Cover prevents the Defender from gaining any benefit of Cover or Defensive Positions.</description>
     </rule>
-    <rule name="Ignores Intervening" id="9fe6-2e36-86a0-3248" hidden="false">
+    <rule name="Ignores Intervening" id="9fe6-2e36-86a0-3248" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Any Attack made with the Keyword Ignores Intervening prevents the negative effect on Ranged Attacks made over Intervening Terrain.</description>
     </rule>
-    <rule name="Immobile" id="1325-0e62-c7a4-c95c" hidden="false">
+    <rule name="Immobile" id="1325-0e62-c7a4-c95c" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Models with the Immobile Keyword may not make Move Actions under any circumstances and are never Knocked Back.</description>
     </rule>
-    <rule name="Knock Back" id="8e0f-c43f-c9a0-725d" hidden="false">
+    <rule name="Knock Back" id="8e0f-c43f-c9a0-725d" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Models targeted by a weapon with the Knock Back keyword are Knocked Back an additional 1&quot; for each damage caused.</description>
     </rule>
-    <rule name="Large Target" id="033f-00f4-0226-5d4a" hidden="false">
+    <rule name="Large Target" id="033f-00f4-0226-5d4a" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>When targeting a Model with the Keyword Large Target, all Ranged Attacks gain a +1 modifier to Ranged Attack rolls and gain the Ignores Intervening Keyword.</description>
     </rule>
-    <rule name="Mobile" id="0d4f-621c-99a2-20fc" hidden="false">
+    <rule name="Mobile" id="0d4f-621c-99a2-20fc" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>Weapons with the Keyword Mobile ignore the negative modifier to Ranged Attack rolls for having performed a Move action prior to the Ranged Attack Action during the same Activation.</description>
     </rule>
-    <rule name="Order" id="c412-10e3-d33b-2cc8" hidden="false">
+    <rule name="Order" id="c412-10e3-d33b-2cc8" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>One Model may issue an Order to another Model within 6&quot;. The issuing Model transfers one of its available actions to the receiving Model. Only Models with the Order keyword may perform this Action. The receiving Model must not have an Activation Token.</description>
     </rule>
-    <rule name="Shield Breaker" id="0fce-1bfb-d822-e145" hidden="false">
+    <rule name="Shield Breaker" id="0fce-1bfb-d822-e145" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>The Keyword Shield Breaker prevents the Defender from making any Shield Saves available to them against this Attack.</description>
     </rule>
-    <rule name="Shock" id="7a3c-3adf-7add-49f2" hidden="false">
+    <rule name="Shock" id="7a3c-3adf-7add-49f2" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>The Keyword Shock causes the Defender to immediately receive 1 Stress for each successful hit in the Ranged or Melee Attack roll.</description>
     </rule>
-    <rule name="Split Fire" id="0bb9-a86d-c2c0-2e34" hidden="false">
+    <rule name="Split Fire" id="0bb9-a86d-c2c0-2e34" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>A Model with the Keyword Split Fire (X) may choose multiple Models as the target of its Ranged Attack during Step 2 of the Ranged Attack Sequence. Each target Model must be within X inches of one another. The total number of Attacks on the Weapons profile should be split between the target Models. The number of Attacks allocated to each target is chosen by the Attacking player.
 • Each target Model may choose to make Reactions as normal. Resolve the rest of the Ranged Attack Sequence separately for each target.</description>
     </rule>
-    <rule name="Steadfast" id="eba8-6ab1-0e4d-6c6c" hidden="false">
+    <rule name="Steadfast" id="eba8-6ab1-0e4d-6c6c" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>A Model with the Keyword Steadfast is not Knocked Back at the end of Ranged or Melee Attack Sequences.</description>
     </rule>
-    <rule name="Weapons Platform" id="9722-e4dc-33cd-deb1" hidden="false">
+    <rule name="Weapons Platform" id="9722-e4dc-33cd-deb1" hidden="false" publicationId="b9d7-30e4-fbe7-c94c" page="33">
       <description>A Model with the Keyword Weapons Platform is treated like any other Model in the Arena with the following exceptions:
 • All Actions become Action (2) regardless of the original Action cost. This means every Action the Model performs uses two of its Action Limit.
 • The Model cannot use the Interact Action in any Match-up.</description>
@@ -124,7 +125,7 @@
         <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Action: The bearer or a model in base contact may heal d5 wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Kinetic Shield" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="b748-35e4-8a78-62ec">
+    <profile name="Kinetic Shield" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="b748-35e4-8a78-62ec" noindex="true">
       <characteristics>
         <characteristic name="Description" typeId="dff8-e28e-d097-4a17">8+ Shield Save against Ranged Attacks only.</characteristic>
       </characteristics>
@@ -140,6 +141,6 @@
     </forceEntry>
   </forceEntries>
   <publications>
-    <publication name="Core rules" id="b9d7-30e4-fbe7-c94c" hidden="false"/>
+    <publication name="Death Fields Arena Rules" id="b9d7-30e4-fbe7-c94c" hidden="false" shortName="Core rules" publisherUrl="https://wargamesatlantic.com/collections/death-fields-arena/products/death-fields-arena-rules"/>
   </publications>
 </gameSystem>

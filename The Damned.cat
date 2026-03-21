@@ -9,27 +9,27 @@
         <categoryLink name="Captain" hidden="false" id="18ad-9732-c46d-ac5b" targetId="580d-6afb-dc8f-5dac" primary="true"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Get &apos;em!" id="65ae-572d-3b71-3238" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Command" id="65ae-572d-3b71-3238" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
         <infoLink name="SMG" id="055a-64b8-244f-fe97" hidden="false" type="profile" targetId="b401-4852-9689-71eb"/>
         <infoLink name="Machete" id="52dd-5fd2-0b54-f74b" hidden="false" type="profile" targetId="3bca-062b-7487-fd92"/>
       </infoLinks>
       <profiles>
-        <profile name="Rabble Rouser" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="ace0-641c-e0a6-58ad">
+        <profile name="Rabble Rouser" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="ace0-641c-e0a6-58ad" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When this Model Activates, Friendly models within 6&quot; may remove 1 Stress.</characteristic>
           </characteristics>
         </profile>
-        <profile name="We’ve Seen Worse" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="0f4e-3fea-3394-004b">
+        <profile name="We’ve Seen Worse" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="0f4e-3fea-3394-004b" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Models in this Team always count their Stress as one lower than their current Stress, to a minimum of 1.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Vicious Attacks" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="34ee-04ae-5e50-00be">
+        <profile name="Vicious Attacks" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="34ee-04ae-5e50-00be" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May re-roll one failed Melee Attack Dice.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Blood Captain" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="2d42-07cb-7031-215e">
+        <profile name="Blood Captain" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="2d42-07cb-7031-215e" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -41,7 +41,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Deadeye" hidden="false" id="4cdd-540e-3150-8e41" defaultAmount="" sortIndex="2" collective="true">
+    <selectionEntry type="model" import="true" name="Deadeye" hidden="false" id="4cdd-540e-3150-8e41" sortIndex="2" collective="true">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="102"/>
       </costs>
@@ -53,17 +53,17 @@
         <infoLink name="Fists" id="6413-5fca-248c-380d" hidden="false" type="profile" targetId="8798-8d56-a911-0322"/>
       </infoLinks>
       <profiles>
-        <profile name="Marksman" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="fcfa-7e7a-d1f0-9edb">
+        <profile name="Marksman" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="fcfa-7e7a-d1f0-9edb" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This model ignores the -1 modifier when not targeting the closest enemy model with a Ranged Attack.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Digital Optics" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="8e54-961a-471b-8ad3">
+        <profile name="Digital Optics" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="8e54-961a-471b-8ad3" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May re-roll one failed Ranged Attack Dice per Ranged Attack.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Deadeye" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="93c7-f639-c4b2-7f17">
+        <profile name="Deadeye" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="93c7-f639-c4b2-7f17" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -78,7 +78,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="22dd-7bbb-415e-5106" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Immolater" hidden="false" id="1e71-8105-1239-0ae4" defaultAmount="" sortIndex="3" collective="true">
+    <selectionEntry type="model" import="true" name="Immolater" hidden="false" id="1e71-8105-1239-0ae4" sortIndex="3" collective="true">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="96"/>
       </costs>
@@ -88,10 +88,10 @@
       <infoLinks>
         <infoLink name="Thermic Gun" id="2517-9a30-ffe1-0e18" hidden="false" type="profile" targetId="76cf-1960-a3ea-ed27"/>
         <infoLink name="Frenzied Attacks" id="4a0f-7625-f2ce-25a0" hidden="false" type="profile" targetId="cde1-8576-f76d-006d"/>
-        <infoLink name="Overload!" id="94f5-5061-e629-aa46" hidden="false" type="profile" targetId="15bf-d163-61d3-c2d3"/>
+        <infoLink name="Overload" id="94f5-5061-e629-aa46" hidden="false" type="profile" targetId="15bf-d163-61d3-c2d3"/>
       </infoLinks>
       <profiles>
-        <profile name="Immolater" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="f28d-bfa0-f01a-f29d">
+        <profile name="Immolater" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="f28d-bfa0-f01a-f29d" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -106,7 +106,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="18a7-935e-2b6a-e27b" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Burner" hidden="false" id="ac6a-2018-72ad-2c89" defaultAmount="" sortIndex="4" collective="true">
+    <selectionEntry type="model" import="true" name="Burner" hidden="false" id="ac6a-2018-72ad-2c89" sortIndex="4" collective="true">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="106"/>
       </costs>
@@ -119,7 +119,7 @@
         <infoLink name="Blood Rush" id="bcdd-c271-b126-551a" hidden="false" type="profile" targetId="9b02-7243-3547-35bc"/>
       </infoLinks>
       <profiles>
-        <profile name="Burner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="a6dc-1e34-d18d-0477">
+        <profile name="Burner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="a6dc-1e34-d18d-0477" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -134,7 +134,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="a8bf-b9fb-24a2-c14f" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Vaporizer" hidden="false" id="28ee-8a04-356e-453f" defaultAmount="" sortIndex="5" collective="true">
+    <selectionEntry type="model" import="true" name="Vaporizer" hidden="false" id="28ee-8a04-356e-453f" sortIndex="5" collective="true">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="98"/>
       </costs>
@@ -147,7 +147,7 @@
         <infoLink name="Energy Gun" id="f54b-942d-82a6-ae80" hidden="false" type="profile" targetId="3c51-997f-109e-b284"/>
       </infoLinks>
       <profiles>
-        <profile name="Vaporizer" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="164d-687f-6c92-9300">
+        <profile name="Vaporizer" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="164d-687f-6c92-9300" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -162,7 +162,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="18be-796f-ed61-047c" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Ruiner" hidden="false" id="552a-1d13-8075-31a3" defaultAmount="" sortIndex="6" collective="true">
+    <selectionEntry type="model" import="true" name="Ruiner" hidden="false" id="552a-1d13-8075-31a3" sortIndex="6" collective="true">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="101"/>
       </costs>
@@ -174,7 +174,7 @@
         <infoLink name="Grenade Launcher" id="213c-b6df-bc37-52b1" hidden="false" type="profile" targetId="b90e-6325-00a9-0e62"/>
       </infoLinks>
       <profiles>
-        <profile name="Ruiner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="fc39-07e2-7e60-1a9d">
+        <profile name="Ruiner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="fc39-07e2-7e60-1a9d" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -189,7 +189,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="0da7-e9fb-f2b5-b7e7" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="The Heavy Auto Gun" hidden="false" id="d2b3-2373-2228-683e" defaultAmount="" collective="true" sortIndex="7">
+    <selectionEntry type="model" import="true" name="The Heavy Auto Gun" hidden="false" id="d2b3-2373-2228-683e" collective="true" sortIndex="7">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="97"/>
       </costs>
@@ -201,7 +201,7 @@
         <infoLink name="H.A.G." id="f336-eef4-471c-65ee" hidden="false" type="profile" targetId="d6b6-abac-bc71-4e14"/>
       </infoLinks>
       <profiles>
-        <profile name="The Heavy Auto Gun" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="64e3-1d66-be46-58f6">
+        <profile name="The Heavy Auto Gun" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="64e3-1d66-be46-58f6" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -211,7 +211,7 @@
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Wailing fire" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="b713-e9be-7021-a4c9">
+        <profile name="Wailing fire" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="b713-e9be-7021-a4c9" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">May re-roll one failed Ranged Attack Dice.</characteristic>
           </characteristics>
@@ -221,7 +221,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="9703-acde-bb43-459e" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Enforcer" hidden="false" id="090f-5a99-0cf8-1041" defaultAmount="" collective="true" sortIndex="8">
+    <selectionEntry type="model" import="true" name="Enforcer" hidden="false" id="090f-5a99-0cf8-1041" collective="true" sortIndex="8">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="101"/>
       </costs>
@@ -229,12 +229,12 @@
         <categoryLink name="Core" hidden="false" id="3eb7-cb3b-4590-a316" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Get &apos;em!" id="967f-4fe8-eb5f-f75d" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink name="Command" id="967f-4fe8-eb5f-f75d" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
         <infoLink name="Pistol" id="04c8-9091-5b27-c9f1" hidden="false" type="profile" targetId="4925-6c09-f2c4-cd21"/>
         <infoLink name="Machete" id="653d-d063-1ea6-59ce" hidden="false" type="profile" targetId="3bca-062b-7487-fd92"/>
       </infoLinks>
       <profiles>
-        <profile name="Enforcer" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="fab8-58c8-5352-8468">
+        <profile name="Enforcer" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="fab8-58c8-5352-8468" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -259,7 +259,7 @@
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="fe04-8c0f-a9ec-c718" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Vandal" hidden="false" id="addb-a035-fa46-b479" defaultAmount="" collective="true" sortIndex="9">
+    <selectionEntry type="model" import="true" name="Vandal" hidden="false" id="addb-a035-fa46-b479" collective="true" sortIndex="9">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="98"/>
       </costs>
@@ -271,7 +271,7 @@
         <infoLink name="Frag Grenade" id="3873-ad16-c6b4-9fdf" hidden="false" type="profile" targetId="51ea-54d9-50cb-1c48"/>
       </infoLinks>
       <profiles>
-        <profile name="Vandal" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="7ea4-9100-3825-be9a">
+        <profile name="Vandal" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="7ea4-9100-3825-be9a" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -288,7 +288,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Gunner" hidden="false" id="2e6f-3395-e5db-2987" defaultAmount="" collective="true" sortIndex="10">
+    <selectionEntry type="model" import="true" name="Gunner" hidden="false" id="2e6f-3395-e5db-2987" collective="true" sortIndex="10">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="90"/>
       </costs>
@@ -301,7 +301,7 @@
         <infoLink name="Frenzied Attacks" id="72eb-7301-9a52-bc6f" hidden="false" type="profile" targetId="cde1-8576-f76d-006d"/>
       </infoLinks>
       <profiles>
-        <profile name="Gunner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="30e4-cc27-02aa-e2d8">
+        <profile name="Gunner" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="30e4-cc27-02aa-e2d8" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
@@ -313,7 +313,7 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="New Blood" hidden="false" id="32c1-c86a-1de6-9734" defaultAmount="" collective="true" sortIndex="12">
+    <selectionEntry type="model" import="true" name="New Blood" hidden="false" id="32c1-c86a-1de6-9734" collective="true" sortIndex="12">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="92"/>
       </costs>
@@ -325,7 +325,7 @@
         <infoLink name="Rusty Bayonet" id="76d3-a8c9-e4be-d2e0" hidden="false" type="profile" targetId="df25-c2e9-b8c7-19a8"/>
       </infoLinks>
       <profiles>
-        <profile name="New Blood" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="9224-30ca-7972-8fb8">
+        <profile name="New Blood" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="9224-30ca-7972-8fb8" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
@@ -335,14 +335,14 @@
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Taunt" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="844a-5857-e28a-2f4a">
+        <profile name="Taunt" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="844a-5857-e28a-2f4a" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When this Model Activates, you may select one Opposing Model within 12&quot; and LoS. That Model receives 1 Stress.</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="model" import="true" name="Crazed" hidden="false" id="d122-8901-f087-db1c" defaultAmount="" collective="true" sortIndex="11">
+    <selectionEntry type="model" import="true" name="Crazed" hidden="false" id="d122-8901-f087-db1c" collective="true" sortIndex="11">
       <costs>
         <cost name="Points" typeId="7c16-6b63-1286-bf82" value="99"/>
       </costs>
@@ -355,7 +355,7 @@
         <infoLink name="Rusty Bayonet" id="5515-e6f5-c48a-6644" hidden="false" type="profile" targetId="df25-c2e9-b8c7-19a8"/>
       </infoLinks>
       <profiles>
-        <profile name="Crazed" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="634b-661d-a10a-831c">
+        <profile name="Crazed" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="634b-661d-a10a-831c" noindex="true">
           <characteristics>
             <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
             <characteristic name="Movement" typeId="0e13-630b-f382-665e">8</characteristic>
@@ -365,7 +365,7 @@
             <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
           </characteristics>
         </profile>
-        <profile name="Vicious" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="0ea9-94d9-02cf-8b4a">
+        <profile name="Vicious" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="0ea9-94d9-02cf-8b4a" noindex="true">
           <characteristics>
             <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model&apos;s Melee Attacks gain the keywords Crit Stress and Crit Damage.</characteristic>
           </characteristics>
@@ -374,7 +374,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile name="Assault Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e736-71d2-e4c4-f1be">
+    <profile name="Assault Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e736-71d2-e4c4-f1be" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
@@ -383,7 +383,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Mobile</characteristic>
       </characteristics>
     </profile>
-    <profile name="Rusty Bayonet" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="df25-c2e9-b8c7-19a8">
+    <profile name="Rusty Bayonet" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="df25-c2e9-b8c7-19a8" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
@@ -392,7 +392,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Damned Flamer" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e098-4d12-dbe3-9ae4">
+    <profile name="Damned Flamer" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e098-4d12-dbe3-9ae4" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Template</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
@@ -401,7 +401,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Template, Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="Energy Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="3c51-997f-109e-b284">
+    <profile name="Energy Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="3c51-997f-109e-b284" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
@@ -410,7 +410,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="8798-8d56-a911-0322">
+    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="8798-8d56-a911-0322" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
@@ -419,7 +419,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Frag Grenade" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="51ea-54d9-50cb-1c48">
+    <profile name="Frag Grenade" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="51ea-54d9-50cb-1c48" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
@@ -428,7 +428,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Blast (3)</characteristic>
       </characteristics>
     </profile>
-    <profile name="Frenzied Attacks" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="cde1-8576-f76d-006d">
+    <profile name="Frenzied Attacks" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="cde1-8576-f76d-006d" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
@@ -437,7 +437,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Grenade Launcher" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="b90e-6325-00a9-0e62">
+    <profile name="Grenade Launcher" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="b90e-6325-00a9-0e62" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
@@ -446,7 +446,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Blast (3), Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="H.A.G." typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="d6b6-abac-bc71-4e14">
+    <profile name="H.A.G." typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="d6b6-abac-bc71-4e14" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">5</characteristic>
@@ -455,7 +455,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Stress</characteristic>
       </characteristics>
     </profile>
-    <profile name="Machete" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="3bca-062b-7487-fd92">
+    <profile name="Machete" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="3bca-062b-7487-fd92" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
@@ -464,7 +464,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Damage</characteristic>
       </characteristics>
     </profile>
-    <profile name="Pistol" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4925-6c09-f2c4-cd21">
+    <profile name="Pistol" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="4925-6c09-f2c4-cd21" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
@@ -473,7 +473,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
       </characteristics>
     </profile>
-    <profile name="Shotgun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="32a7-d862-967c-a56c">
+    <profile name="Shotgun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="32a7-d862-967c-a56c" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
@@ -482,7 +482,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Mobile, Knock Back</characteristic>
       </characteristics>
     </profile>
-    <profile name="SMG" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="b401-4852-9689-71eb">
+    <profile name="SMG" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="b401-4852-9689-71eb" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">12&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">4</characteristic>
@@ -491,7 +491,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Mobile</characteristic>
       </characteristics>
     </profile>
-    <profile name="Sniper Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e2d0-ce46-1b88-e9da">
+    <profile name="Sniper Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="e2d0-ce46-1b88-e9da" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">28&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
@@ -500,7 +500,7 @@
         <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Slow</characteristic>
       </characteristics>
     </profile>
-    <profile name="Thermic Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="76cf-1960-a3ea-ed27">
+    <profile name="Thermic Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="76cf-1960-a3ea-ed27" noindex="true">
       <characteristics>
         <characteristic name="Range" typeId="bae0-651d-c2be-3f69">12&quot;</characteristic>
         <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
