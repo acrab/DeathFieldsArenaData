@@ -111,7 +111,7 @@
   <sharedProfiles>
     <profile name="Command" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="8d25-7521-f1ae-cd54" noindex="true">
       <characteristics>
-        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This unit has the Order Keyword.</characteristic>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model has the Order Keyword.</characteristic>
       </characteristics>
     </profile>
     <profile name="Overload" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="15bf-d163-61d3-c2d3" noindex="true">

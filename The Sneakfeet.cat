@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="ee0f-ee08-366c-5692" name="The Sneakfeet" gameSystemId="2fa2-88e4-c8fe-f337" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Fists" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="1369-4ed0-b80f-15c8" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="Frag Grenade" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="ddb7-e238-6594-4a46" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">8&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">3</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Blast (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Frying Pan" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="5537-14e6-51d9-914f" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Shock</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hunting Knife" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="c149-cadb-412c-8550" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">Melee</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501"/>
+      </characteristics>
+    </profile>
+    <profile name="LRSF Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="2568-4fee-1a27-5056" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">28&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">1</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">5</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-3</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slug Gun" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="d408-c81b-8653-d454" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">16&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">3</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">1</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Crit Damage</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="SRSF Rifle" typeId="5824-f0a2-dc41-6692" typeName="Weapons" hidden="false" id="a92c-6be5-16f9-8ec8" noindex="true">
+      <characteristics>
+        <characteristic name="Range" typeId="bae0-651d-c2be-3f69">20&quot;</characteristic>
+        <characteristic name="Number of Attacks" typeId="e328-621c-36ec-51c9">2</characteristic>
+        <characteristic name="Damage" typeId="f90e-d119-e411-093b">2</characteristic>
+        <characteristic name="Defence Modifier" typeId="9996-c6aa-a888-8573">-1</characteristic>
+        <characteristic name="Notes" typeId="1c6f-5747-6b49-6501">Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Marksman" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="9c2d-d0b5-92f4-2fd2" noindex="true">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This model ignores the -1 modifier when not targeting the closest enemy model with a Ranged Attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Concealed Position" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="c289-cc33-4216-e489" noindex="true">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model receives an additional +1 to Defence Rolls when benefiting from Cover.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Slippery" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="162b-be75-fab3-30be" noindex="true">
+      <characteristics>
+        <characteristic name="Description" typeId="dff8-e28e-d097-4a17">8+ Shield Save against Ranged and Melee Attacks only.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Quiet-Finger" hidden="false" id="385d-64d9-8e95-bf35" sortIndex="1">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="116"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Captain" hidden="false" id="45f7-eae3-62b7-a4b9" targetId="580d-6afb-dc8f-5dac" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Quiet-Finger" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="3937-066a-7d21-5535" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">7</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">3</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Unseen Marksmen" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="96cf-970c-486c-ae3e" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">All Models in this Team gain a +1 to Defence Rolls when selected as the target of a Ranged Attack from over 12&quot; away.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Shirif" id="58d9-664e-ea4d-8b4b" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink targetId="9c2d-d0b5-92f4-2fd2" id="9a20-ac30-2a0c-7dfc" type="profile" name="Marksman" hidden="false"/>
+        <infoLink name="LRSF Rifle" id="a430-8658-35b7-18d6" hidden="false" type="profile" targetId="2568-4fee-1a27-5056"/>
+        <infoLink name="SRSF Rifle" id="f7c4-a8a5-c428-1557" hidden="false" type="profile" targetId="a92c-6be5-16f9-8ec8"/>
+        <infoLink name="Fists" id="9789-5ad9-35ca-5068" hidden="false" type="profile" targetId="1369-4ed0-b80f-15c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hardfoot" hidden="false" id="00da-db51-56f8-7f33" sortIndex="2">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="105"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Captain" hidden="false" id="940a-8102-8270-29fc" targetId="580d-6afb-dc8f-5dac" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Hardfoot" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="110d-899b-a177-b794" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">3</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">6</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slight of stature" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="301c-a906-06af-2744" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Attacks that target models in this Team always suffer an additional -1 modifier to their Attack Rolls.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Shirif" id="7a29-0050-0112-bf6b" hidden="false" type="profile" targetId="8d25-7521-f1ae-cd54"/>
+        <infoLink targetId="162b-be75-fab3-30be" id="ddff-7491-abef-55e8" type="profile" name="Slippery" hidden="false"/>
+        <infoLink name="Fists" id="e36c-7b2a-b166-a964" hidden="false" type="profile" targetId="1369-4ed0-b80f-15c8"/>
+        <infoLink name="Slug Gun" id="4f99-c0ba-a1ab-7a06" hidden="false" type="profile" targetId="d408-c81b-8653-d454"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Grass-whistler" hidden="false" id="bb06-dd9a-57f4-188d" sortIndex="3" collective="true">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="108"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Specialist" hidden="false" id="dff6-6b74-533a-6797" targetId="0de3-22ed-1e9f-ccf2" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="ab20-5529-05a0-b089" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Grass-whistler" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="f55b-a050-23e1-ee43" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">7</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">3</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="LRSF Rifle" id="d20a-732e-e943-b21a" hidden="false" type="profile" targetId="2568-4fee-1a27-5056"/>
+        <infoLink targetId="c289-cc33-4216-e489" id="edb0-dd02-8d55-d510" type="profile" name="Concealed Position" hidden="false"/>
+        <infoLink name="SRSF Rifle" id="2832-2a24-cff4-1bfb" hidden="false" type="profile" targetId="a92c-6be5-16f9-8ec8"/>
+        <infoLink name="Marksman" id="29ec-7287-f95b-9972" hidden="false" type="profile" targetId="9c2d-d0b5-92f4-2fd2"/>
+        <infoLink name="Fists" id="58c7-3b72-d729-7925" hidden="false" type="profile" targetId="1369-4ed0-b80f-15c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Pointfoot" hidden="false" id="c3cd-10ff-7245-e8ae" collective="true" sortIndex="4">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="88"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="206f-9394-b137-9c98" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="247a-c12c-fef2-4637" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Pointfoot" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="2d56-1de0-1efb-0bdc" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">7</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Binoculars" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="2b56-0278-e517-0369" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">All Friendly Models within 4” of this model gain +1 to their ranged attack rolls.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Comms" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="f8f9-b007-35bc-02e1" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">A Captain may issue an order to models within 6&quot; of this model following all of the rules for issuing orders.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fists" id="8f24-4bf1-7dc7-9fa6" hidden="false" type="profile" targetId="1369-4ed0-b80f-15c8"/>
+        <infoLink name="Slug Gun" id="b9ce-164d-5ec6-acde" hidden="false" type="profile" targetId="d408-c81b-8653-d454"/>
+        <infoLink name="Concealed Position" id="9d8e-1d6a-8394-9c48" hidden="false" type="profile" targetId="c289-cc33-4216-e489"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Cook" hidden="false" id="ff3b-b29f-c22f-587f" collective="true" sortIndex="5">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="106"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="70d6-d716-383d-ae2f" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="4cef-43e0-5231-0b6b" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Cook" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="064c-f29a-39a9-c81c" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="A Hearty Meal" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="a377-1568-2a26-8e74" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that activate within 6&quot; of this model may remove 1 stress at the start of their Activation.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Second Breakfast" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="6b61-72c2-4865-b162" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">Friendly Models that activate within 4&quot; of this model may remove 1 Damage at the start of their Activation.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fists" id="9137-0b3f-a0ce-c110" hidden="false" type="profile" targetId="1369-4ed0-b80f-15c8"/>
+        <infoLink name="Slug Gun" id="c8d9-f4c1-fe20-9ed7" hidden="false" type="profile" targetId="d408-c81b-8653-d454"/>
+        <infoLink name="Slippery" id="1ede-0ba8-64eb-d3b9" hidden="false" type="profile" targetId="162b-be75-fab3-30be"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Quickfoot" hidden="false" id="d8c9-683e-89c5-9189" collective="true" sortIndex="6">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="95"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="25ea-b66d-30ca-f43a" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Quickfoot" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="6875-6314-8337-112c" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">7</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">5</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Light footed" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="1aba-cfb8-f066-664b" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model ignores the effects of Difficult Ground.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fast Hands" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="9bb0-75ca-b6b8-1877" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may re-roll one failed Attack roll per Attack Action.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Slug Gun" id="9348-2ecc-03b2-1d89" hidden="false" type="profile" targetId="d408-c81b-8653-d454"/>
+        <infoLink name="Slippery" id="fddc-a5e9-8594-8f46" hidden="false" type="profile" targetId="162b-be75-fab3-30be"/>
+        <infoLink name="Hunting Knife" id="641c-8ff0-4aa3-a5af" hidden="false" type="profile" targetId="c149-cadb-412c-8550"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Bombarder" hidden="false" id="9f15-8505-bf07-20ac" collective="true" sortIndex="7">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="102"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="d69d-fe1f-d890-6927" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="0259-9065-5424-0f84" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Bombarder" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="f6cc-58aa-459e-f71d" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">7</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bag o&apos; bombs!" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="fa3e-8a6c-1a69-6929" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may re-roll it&apos;s Ranged Attack Dice when making a Ranged Attack with Frag Grenades.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Slug Gun" id="f1a6-c7ea-2f86-8826" hidden="false" type="profile" targetId="d408-c81b-8653-d454"/>
+        <infoLink name="Slippery" id="2bb3-be07-37cc-c9fd" hidden="false" type="profile" targetId="162b-be75-fab3-30be"/>
+        <infoLink name="Frag Grenade" id="6c1e-df59-de6a-f539" hidden="false" type="profile" targetId="ddb7-e238-6594-4a46"/>
+        <infoLink name="Fists" id="e919-d839-7bfb-270d" hidden="false" type="profile" targetId="1369-4ed0-b80f-15c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Youngfoot" hidden="false" id="e77b-c9c1-da5d-f90e" collective="true" sortIndex="8">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="85"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="01fa-99b4-f254-7247" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Youngfoot" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="ceaf-140a-d88b-5876" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">7</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">6</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Enthusiastic" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3bdc-1bf8-c60b-8acf" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">This Model may re-roll any of their Ranged Attack dice.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Beginners Luck" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="3b8c-761a-b1fd-1141" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">When this model receives damage, roll a d10 and call &quot;odds&quot; or &quot;evens&quot;. If correct, reduce the damage received to 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Slug Gun" id="d92a-f25b-a5fd-1323" hidden="false" type="profile" targetId="d408-c81b-8653-d454"/>
+        <infoLink name="Fists" id="cbe1-4809-71c5-3f8e" hidden="false" type="profile" targetId="1369-4ed0-b80f-15c8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stoutfoot" hidden="false" id="2408-3973-ff82-895f" collective="true" sortIndex="9">
+      <costs>
+        <cost name="Points" typeId="7c16-6b63-1286-bf82" value="91"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Core" hidden="false" id="0140-f20e-ac0e-45d8" targetId="93ac-01ac-8cb1-3cfa" primary="true"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stoutfoot" typeId="a7c4-551e-ab0b-40af" typeName="Unit" hidden="false" id="2f46-7252-0c49-4052" noindex="true">
+          <characteristics>
+            <characteristic name="Actions" typeId="a0bf-8f3c-959c-2e8f">2</characteristic>
+            <characteristic name="Movement" typeId="0e13-630b-f382-665e">6</characteristic>
+            <characteristic name="Melee Attack" typeId="d206-a4ea-f353-3213">7</characteristic>
+            <characteristic name="Ranged Attack" typeId="8914-4bbb-79e3-ec0a">5</characteristic>
+            <characteristic name="Defence" typeId="2ebc-24dc-2806-572a">5</characteristic>
+            <characteristic name="Health" typeId="75d4-6694-5709-9e7e">5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stubborn" typeId="ff5c-c011-5331-390c" typeName="Abilities" hidden="false" id="d99a-3b8e-86c9-f7e2" noindex="true">
+          <characteristics>
+            <characteristic name="Description" typeId="dff8-e28e-d097-4a17">At the beginning of this Model&apos;s activation you may remove 1 Stress from this Model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Slug Gun" id="5a36-0f68-6a4c-8c82" hidden="false" type="profile" targetId="d408-c81b-8653-d454"/>
+        <infoLink name="Slippery" id="6ae6-9f4a-98ae-33e5" hidden="false" type="profile" targetId="162b-be75-fab3-30be"/>
+        <infoLink name="Fists" id="e285-3904-2704-153b" hidden="false" type="profile" targetId="1369-4ed0-b80f-15c8"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <entryLinks>
+    <entryLink import="true" name="Stoutfoot" hidden="false" id="b6cb-022c-cce1-929f" targetId="2408-3973-ff82-895f" type="selectionEntry"/>
+    <entryLink import="true" name="Youngfoot" hidden="false" id="9e94-69be-3994-90f1" targetId="e77b-c9c1-da5d-f90e" type="selectionEntry"/>
+    <entryLink import="true" name="Bombarder" hidden="false" id="fbde-d366-4c1e-0f03" targetId="9f15-8505-bf07-20ac" type="selectionEntry"/>
+    <entryLink import="true" name="Quickfoot" hidden="false" id="8d53-744c-26cc-5017" targetId="d8c9-683e-89c5-9189" type="selectionEntry"/>
+    <entryLink import="true" name="Pointfoot" hidden="false" id="438b-8f73-b0a3-f2ac" targetId="c3cd-10ff-7245-e8ae" type="selectionEntry"/>
+    <entryLink import="true" name="Cook" hidden="false" id="ac6a-207b-6e8a-618f" targetId="ff3b-b29f-c22f-587f" type="selectionEntry"/>
+    <entryLink import="true" name="Grass-whistler" hidden="false" id="3c07-8f12-1623-3abb" targetId="bb06-dd9a-57f4-188d" type="selectionEntry"/>
+    <entryLink import="true" name="Quiet-Finger" hidden="false" id="edef-5654-069f-f609" targetId="385d-64d9-8e95-bf35" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>
