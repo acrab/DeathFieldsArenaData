@@ -393,5 +393,6 @@
     <entryLink import="true" name="Cook" hidden="false" id="ac6a-207b-6e8a-618f" targetId="ff3b-b29f-c22f-587f" type="selectionEntry"/>
     <entryLink import="true" name="Grass-whistler" hidden="false" id="3c07-8f12-1623-3abb" targetId="bb06-dd9a-57f4-188d" type="selectionEntry"/>
     <entryLink import="true" name="Quiet-Finger" hidden="false" id="edef-5654-069f-f609" targetId="385d-64d9-8e95-bf35" type="selectionEntry"/>
+    <entryLink import="true" name="Hardfoot" hidden="false" id="75f4-9a5b-e529-e2ba" targetId="00da-db51-56f8-7f33" type="selectionEntry"/>
   </entryLinks>
 </catalogue>
